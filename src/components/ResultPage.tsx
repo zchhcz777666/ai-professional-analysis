@@ -81,58 +81,15 @@ export default function ResultPage({
           </div>
         )}
 
-        {/* 冲刺 */}
-        {chongList.length > 0 && (
-          <section className="mb-6">
+        {/* 按匹配度排序展示 */}
+        {results.length > 0 && (
+          <section>
             <div className="flex items-center gap-2 mb-3">
-              <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-red-500 text-white text-sm font-bold">冲</span>
-              <h2 className="text-lg font-semibold text-slate-800">冲刺院校</h2>
-              <span className="text-xs text-slate-400">录取有难度，但值得一试</span>
+              <h2 className="text-lg font-semibold text-slate-800">推荐院校</h2>
+              <span className="text-xs text-slate-400">按匹配度从高到低排序</span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              {chongList.map(result => (
-                <UniversityCard
-                  key={result.university.id}
-                  result={result}
-                  onAnalyze={handleAnalyze}
-                  callsRemaining={callsRemaining}
-                />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* 稳妥 */}
-        {wenList.length > 0 && (
-          <section className="mb-6">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-green-500 text-white text-sm font-bold">稳</span>
-              <h2 className="text-lg font-semibold text-slate-800">稳妥院校</h2>
-              <span className="text-xs text-slate-400">录取把握较大，重点考虑</span>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              {wenList.map(result => (
-                <UniversityCard
-                  key={result.university.id}
-                  result={result}
-                  onAnalyze={handleAnalyze}
-                  callsRemaining={callsRemaining}
-                />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* 保底 */}
-        {baoList.length > 0 && (
-          <section className="mb-6">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-blue-500 text-white text-sm font-bold">保</span>
-              <h2 className="text-lg font-semibold text-slate-800">保底院校</h2>
-              <span className="text-xs text-slate-400">录取非常稳妥，确保有学上</span>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              {baoList.map(result => (
+              {results.map(result => (
                 <UniversityCard
                   key={result.university.id}
                   result={result}

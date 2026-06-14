@@ -274,8 +274,11 @@ ${university.subjectRating.startsWith('A') ? '该校AI专业实力强劲，' : '
 async function deductCall(accessCode: string): Promise<{ success: boolean; error?: string }> {
   const kv = await (async () => {
     try {
-      const { kv } = await import('@vercel/kv')
-      return kv
+      const mod = await import('@vercel/kv')
+      if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+        return mod.kv
+      }
+      return null
     } catch {
       return null
     }

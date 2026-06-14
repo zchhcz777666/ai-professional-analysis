@@ -11,13 +11,11 @@ import { getScoreRecords, getScoreRecordsByProvince } from '@/data/scores'
  * - 保：考生位次明显低于学校最低位次（较有把握）
  */
 
-// 冲稳保的位次差阈值（相对于考生位次的百分比）
-const TIER_THRESHOLDS = {
-  // 考生位次比学校最低位次高（数字更小 = 排名更靠前）
-  chong: { min: -0.15, max: 0.10 },  // 位次差在 -15% ~ +10% → 冲刺
-  wen:   { min: 0.10,  max: 0.35 },  // 位次差在 +10% ~ +35% → 稳妥
-  bao:   { min: 0.35,  max: 0.80 },  // 位次差在 +35% ~ +80% → 保底
-}
+// 冲稳保判断逻辑：
+// rankDiffRatio = (学生位次 - 学校最低位次) / 学校最低位次
+// 位次数字越小 = 排名越靠前 = 越优秀
+// 学生位次 < 学校最低位次 → rankDiffRatio < 0 → 学生更优秀 → 保/稳
+// 学生位次 > 学校最低位次 → rankDiffRatio > 0 → 学生不如学校最低 → 冲
 
 export function matchUniversities(input: UserInput): MatchResult[] {
   const { province, category, score, rank, preferences } = input
@@ -25,11 +23,21 @@ export function matchUniversities(input: UserInput): MatchResult[] {
   // 获取该省份所有有分数线的学校
   const provinceScores = getScoreRecordsByProvince(province)
 
+  // 科类等价映射：理科≈物理类，文科≈历史类
+  const equivalentCategories: Record<string, string[]> = {
+    '理科': ['理科', '物理类'],
+    '物理类': ['物理类', '理科'],
+    '文科': ['文科', '历史类'],
+    '历史类': ['历史类', '文科'],
+    '综合': ['综合'],
+  }
+  const allowedCategories = equivalentCategories[category] || [category]
+
   // 按学校分组
   const universityScoreMap = new Map<string, ScoreRecord[]>()
   for (const record of provinceScores) {
-    // 过滤招生类别
-    if (record.category !== category) continue
+    // 过滤招生类别（兼容等价科类）
+    if (!allowedCategories.includes(record.category)) continue
 
     if (!universityScoreMap.has(record.universityId)) {
       universityScoreMap.set(record.universityId, [])
@@ -77,14 +85,8 @@ export function matchUniversities(input: UserInput): MatchResult[] {
     })
   }
 
-  // 按冲稳保分组排序，同组内按匹配度排序
-  const tierOrder = { '冲': 0, '稳': 1, '保': 2 }
-  results.sort((a, b) => {
-    if (tierOrder[a.tier] !== tierOrder[b.tier]) {
-      return tierOrder[a.tier] - tierOrder[b.tier]
-    }
-    return b.matchScore - a.matchScore
-  })
+  // 按匹配度从高到低排序
+  results.sort((a, b) => b.matchScore - a.matchScore)
 
   return results
 }
@@ -109,9 +111,12 @@ function calculateWeightedAvgRank(records: ScoreRecord[]): number {
 
 // 根据位次差比率判断冲稳保
 function determineTier(rankDiffRatio: number): '冲' | '稳' | '保' {
-  if (rankDiffRatio < TIER_THRESHOLDS.chong.max) return '冲'
-  if (rankDiffRatio < TIER_THRESHOLDS.wen.max) return '稳'
-  return '保'
+  // 学生位次远优于学校（比学校最低位次好20%以上）→ 保底
+  if (rankDiffRatio < -0.20) return '保'
+  // 学生位次接近学校最低位次（好20%到差15%之间）→ 稳妥
+  if (rankDiffRatio < 0.15) return '稳'
+  // 学生位次不如学校最低位次（差15%以上）→ 冲刺
+  return '冲'
 }
 
 // 计算匹配度（0-100）
@@ -122,13 +127,13 @@ function calculateMatchScore(
 ): number {
   let score = 50 // 基础分
 
-  // 1. 位次匹配度（越接近稳妥区间中心分越高）
-  if (rankDiffRatio >= 0.10 && rankDiffRatio <= 0.35) {
+  // 1. 位次匹配度（稳妥区间分最高，保底次之，冲刺最低）
+  if (rankDiffRatio >= -0.20 && rankDiffRatio < 0.15) {
     score += 25 // 稳妥区间加分
-  } else if (rankDiffRatio >= -0.15 && rankDiffRatio < 0.10) {
-    score += 15 // 冲刺区间
+  } else if (rankDiffRatio < -0.20) {
+    score += 15 // 保底区间
   } else {
-    score += 10 // 保底区间
+    score += 10 // 冲刺区间
   }
 
   // 2. 学科评估加分
@@ -158,8 +163,10 @@ function calculateMatchScore(
 
 // 风险等级
 function determineRiskLevel(rankDiffRatio: number, records: ScoreRecord[]): '高' | '中' | '低' {
-  if (rankDiffRatio < -0.10) return '高'
-  if (rankDiffRatio < 0.10) return '中'
+  // 学生位次不如学校（冲刺）→ 高风险
+  if (rankDiffRatio > 0.15) return '高'
+  // 学生位次接近学校（稳妥边缘）→ 中风险
+  if (rankDiffRatio >= -0.05) return '中'
 
   // 检查位次趋势（是否逐年抬高）
   if (records.length >= 2) {

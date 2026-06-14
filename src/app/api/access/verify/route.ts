@@ -19,8 +19,12 @@ function initTestCodes() {
 
 async function getKV() {
   try {
-    const { kv } = await import('@vercel/kv')
-    return kv
+    const mod = await import('@vercel/kv')
+    // 检查是否有真实的 KV 配置（环境变量）
+    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+      return mod.kv
+    }
+    return null
   } catch {
     return null
   }

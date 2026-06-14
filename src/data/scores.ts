@@ -180,6 +180,278 @@ export const scoreRecords: ScoreRecord[] = [
   // ===== 福建 =====
   { universityId: 'xmu', province: '福建', year: 2024, category: '物理类', minScore: 620, avgScore: 626, minRank: 5800, avgRank: 4900, enrollment: 5 },
   { universityId: 'xmu', province: '福建', year: 2023, category: '物理类', minScore: 616, avgScore: 622, minRank: 6200, avgRank: 5300, enrollment: 5 },
+  { universityId: 'fzu', province: '福建', year: 2024, category: '物理类', minScore: 590, avgScore: 596, minRank: 16000, avgRank: 14000, enrollment: 8 },
+
+  // ===== 天津 =====
+  { universityId: 'tju', province: '天津', year: 2024, category: '物理类', minScore: 650, avgScore: 656, minRank: 2800, avgRank: 2200, enrollment: 6 },
+  { universityId: 'tju', province: '天津', year: 2023, category: '物理类', minScore: 646, avgScore: 652, minRank: 3000, avgRank: 2400, enrollment: 6 },
+  { universityId: 'nankai', province: '天津', year: 2024, category: '物理类', minScore: 648, avgScore: 654, minRank: 2600, avgRank: 2000, enrollment: 5 },
+  { universityId: 'nankai', province: '天津', year: 2023, category: '物理类', minScore: 644, avgScore: 650, minRank: 2800, avgRank: 2200, enrollment: 5 },
+  { universityId: 'tsinghua', province: '天津', year: 2024, category: '物理类', minScore: 690, avgScore: 695, minRank: 100, avgRank: 70, enrollment: 3 },
+  { universityId: 'pku', province: '天津', year: 2024, category: '物理类', minScore: 688, avgScore: 693, minRank: 120, avgRank: 85, enrollment: 3 },
+  { universityId: 'buaa', province: '天津', year: 2024, category: '物理类', minScore: 662, avgScore: 668, minRank: 1900, avgRank: 1500, enrollment: 5 },
+  { universityId: 'bupt', province: '天津', year: 2024, category: '物理类', minScore: 640, avgScore: 646, minRank: 4200, avgRank: 3600, enrollment: 5 },
+
+  // ===== 上海 =====
+  { universityId: 'sjtu', province: '上海', year: 2024, category: '物理类', minScore: 680, avgScore: 685, minRank: 300, avgRank: 220, enrollment: 5 },
+  { universityId: 'sjtu', province: '上海', year: 2023, category: '物理类', minScore: 677, avgScore: 682, minRank: 320, avgRank: 240, enrollment: 5 },
+  { universityId: 'fudan', province: '上海', year: 2024, category: '物理类', minScore: 678, avgScore: 683, minRank: 310, avgRank: 230, enrollment: 4 },
+  { universityId: 'fudan', province: '上海', year: 2023, category: '物理类', minScore: 675, avgScore: 680, minRank: 340, avgRank: 260, enrollment: 4 },
+  { universityId: 'tongji', province: '上海', year: 2024, category: '物理类', minScore: 660, avgScore: 666, minRank: 1800, avgRank: 1400, enrollment: 5 },
+  { universityId: 'ecnu', province: '上海', year: 2024, category: '物理类', minScore: 642, avgScore: 648, minRank: 4800, avgRank: 4100, enrollment: 5 },
+  { universityId: 'nuaa_cqu', province: '上海', year: 2024, category: '物理类', minScore: 635, avgScore: 641, minRank: 5800, avgRank: 5000, enrollment: 5 },
+  { universityId: 'tsinghua', province: '上海', year: 2024, category: '物理类', minScore: 688, avgScore: 693, minRank: 110, avgRank: 75, enrollment: 3 },
+
+  // ===== 山西 =====
+  { universityId: 'sxu', province: '山西', year: 2024, category: '理科', minScore: 530, avgScore: 538, minRank: 28000, avgRank: 24000, enrollment: 8 },
+  { universityId: 'sxu', province: '山西', year: 2023, category: '理科', minScore: 522, avgScore: 530, minRank: 30000, avgRank: 26000, enrollment: 8 },
+  { universityId: 'tsinghua', province: '山西', year: 2024, category: '理科', minScore: 692, avgScore: 697, minRank: 60, avgRank: 40, enrollment: 2 },
+  { universityId: 'pku', province: '山西', year: 2024, category: '理科', minScore: 690, avgScore: 695, minRank: 70, avgRank: 48, enrollment: 2 },
+  { universityId: 'hust', province: '山西', year: 2024, category: '理科', minScore: 630, avgScore: 636, minRank: 4200, avgRank: 3500, enrollment: 4 },
+  { universityId: 'bupt', province: '山西', year: 2024, category: '理科', minScore: 600, avgScore: 606, minRank: 8500, avgRank: 7200, enrollment: 5 },
+
+  // ===== 内蒙古 =====
+  { universityId: 'imust', province: '内蒙古', year: 2024, category: '理科', minScore: 460, avgScore: 470, minRank: 30000, avgRank: 26000, enrollment: 6 },
+  { universityId: 'tsinghua', province: '内蒙古', year: 2024, category: '理科', minScore: 688, avgScore: 693, minRank: 50, avgRank: 35, enrollment: 2 },
+  { universityId: 'pku', province: '内蒙古', year: 2024, category: '理科', minScore: 686, avgScore: 691, minRank: 55, avgRank: 38, enrollment: 2 },
+  { universityId: 'hust', province: '内蒙古', year: 2024, category: '理科', minScore: 610, avgScore: 616, minRank: 3800, avgRank: 3100, enrollment: 4 },
+
+  // ===== 吉林 =====
+  { universityId: 'jlu', province: '吉林', year: 2024, category: '理科', minScore: 570, avgScore: 578, minRank: 9500, avgRank: 8000, enrollment: 10 },
+  { universityId: 'jlu', province: '吉林', year: 2023, category: '理科', minScore: 562, avgScore: 570, minRank: 10000, avgRank: 8500, enrollment: 10 },
+  { universityId: 'tsinghua', province: '吉林', year: 2024, category: '理科', minScore: 690, avgScore: 695, minRank: 55, avgRank: 38, enrollment: 2 },
+  { universityId: 'pku', province: '吉林', year: 2024, category: '理科', minScore: 688, avgScore: 693, minRank: 60, avgRank: 42, enrollment: 2 },
+  { universityId: 'hust', province: '吉林', year: 2024, category: '理科', minScore: 600, avgScore: 606, minRank: 5500, avgRank: 4600, enrollment: 4 },
+
+  // ===== 黑龙江 =====
+  { universityId: 'hit', province: '黑龙江', year: 2024, category: '理科', minScore: 610, avgScore: 618, minRank: 3500, avgRank: 2800, enrollment: 8 },
+  { universityId: 'hit', province: '黑龙江', year: 2023, category: '理科', minScore: 604, avgScore: 612, minRank: 3800, avgRank: 3100, enrollment: 8 },
+  { universityId: 'hrbeu', province: '黑龙江', year: 2024, category: '理科', minScore: 555, avgScore: 563, minRank: 12000, avgRank: 10000, enrollment: 6 },
+  { universityId: 'nepu', province: '黑龙江', year: 2024, category: '理科', minScore: 460, avgScore: 470, minRank: 38000, avgRank: 33000, enrollment: 5 },
+  { universityId: 'tsinghua', province: '黑龙江', year: 2024, category: '理科', minScore: 692, avgScore: 697, minRank: 50, avgRank: 35, enrollment: 2 },
+
+  // ===== 江西 =====
+  { universityId: 'jxnu', province: '江西', year: 2024, category: '理科', minScore: 530, avgScore: 538, minRank: 42000, avgRank: 36000, enrollment: 6 },
+  { universityId: 'nchu', province: '江西', year: 2024, category: '理科', minScore: 520, avgScore: 528, minRank: 48000, avgRank: 42000, enrollment: 5 },
+  { universityId: 'tsinghua', province: '江西', year: 2024, category: '理科', minScore: 694, avgScore: 699, minRank: 55, avgRank: 38, enrollment: 2 },
+  { universityId: 'pku', province: '江西', year: 2024, category: '理科', minScore: 692, avgScore: 697, minRank: 60, avgRank: 42, enrollment: 2 },
+  { universityId: 'hust', province: '江西', year: 2024, category: '理科', minScore: 620, avgScore: 626, minRank: 5500, avgRank: 4600, enrollment: 4 },
+  { universityId: 'bupt', province: '江西', year: 2024, category: '理科', minScore: 595, avgScore: 601, minRank: 10000, avgRank: 8500, enrollment: 5 },
+
+  // ===== 广西 =====
+  { universityId: 'gxu', province: '广西', year: 2024, category: '理科', minScore: 540, avgScore: 548, minRank: 28000, avgRank: 24000, enrollment: 6 },
+  { universityId: 'guet', province: '广西', year: 2024, category: '理科', minScore: 510, avgScore: 518, minRank: 40000, avgRank: 35000, enrollment: 6 },
+  { universityId: 'tsinghua', province: '广西', year: 2024, category: '理科', minScore: 694, avgScore: 699, minRank: 45, avgRank: 30, enrollment: 2 },
+  { universityId: 'hust', province: '广西', year: 2024, category: '理科', minScore: 618, avgScore: 624, minRank: 4800, avgRank: 4000, enrollment: 4 },
+
+  // ===== 海南 =====
+  { universityId: 'hainanu', province: '海南', year: 2024, category: '综合', minScore: 600, avgScore: 608, minRank: 10000, avgRank: 8500, enrollment: 6 },
+  { universityId: 'tsinghua', province: '海南', year: 2024, category: '综合', minScore: 860, avgScore: 870, minRank: 30, avgRank: 20, enrollment: 2 },
+  { universityId: 'hust', province: '海南', year: 2024, category: '综合', minScore: 740, avgScore: 750, minRank: 1200, avgRank: 1000, enrollment: 3 },
+
+  // ===== 重庆 =====
+  { universityId: 'cqu', province: '重庆', year: 2024, category: '物理类', minScore: 600, avgScore: 608, minRank: 12000, avgRank: 10000, enrollment: 6 },
+  { universityId: 'cqu', province: '重庆', year: 2023, category: '物理类', minScore: 594, avgScore: 602, minRank: 13000, avgRank: 11000, enrollment: 6 },
+  { universityId: 'cqupt', province: '重庆', year: 2024, category: '物理类', minScore: 545, avgScore: 553, minRank: 32000, avgRank: 28000, enrollment: 8 },
+  { universityId: 'cqjtu', province: '重庆', year: 2024, category: '物理类', minScore: 510, avgScore: 518, minRank: 50000, avgRank: 44000, enrollment: 5 },
+  { universityId: 'tsinghua', province: '重庆', year: 2024, category: '物理类', minScore: 692, avgScore: 697, minRank: 65, avgRank: 45, enrollment: 2 },
+  { universityId: 'uestc', province: '重庆', year: 2024, category: '物理类', minScore: 640, avgScore: 646, minRank: 4500, avgRank: 3800, enrollment: 5 },
+
+  // ===== 贵州 =====
+  { universityId: 'gsu', province: '贵州', year: 2024, category: '理科', minScore: 520, avgScore: 528, minRank: 28000, avgRank: 24000, enrollment: 6 },
+  { universityId: 'tsinghua', province: '贵州', year: 2024, category: '理科', minScore: 694, avgScore: 699, minRank: 40, avgRank: 28, enrollment: 2 },
+  { universityId: 'hust', province: '贵州', year: 2024, category: '理科', minScore: 615, avgScore: 621, minRank: 4200, avgRank: 3500, enrollment: 4 },
+
+  // ===== 云南 =====
+  { universityId: 'ynu', province: '云南', year: 2024, category: '理科', minScore: 530, avgScore: 538, minRank: 26000, avgRank: 22000, enrollment: 6 },
+  { universityId: 'tsinghua', province: '云南', year: 2024, category: '理科', minScore: 696, avgScore: 701, minRank: 40, avgRank: 28, enrollment: 2 },
+  { universityId: 'hust', province: '云南', year: 2024, category: '理科', minScore: 612, avgScore: 618, minRank: 4800, avgRank: 4000, enrollment: 4 },
+
+  // ===== 西藏 =====
+  { universityId: 'tibetu', province: '西藏', year: 2024, category: '理科', minScore: 420, avgScore: 430, minRank: 6000, avgRank: 5200, enrollment: 5 },
+
+  // ===== 甘肃 =====
+  { universityId: 'lzu', province: '甘肃', year: 2024, category: '理科', minScore: 560, avgScore: 568, minRank: 7000, avgRank: 5800, enrollment: 6 },
+  { universityId: 'lzu', province: '甘肃', year: 2023, category: '理科', minScore: 552, avgScore: 560, minRank: 7500, avgRank: 6300, enrollment: 6 },
+  { universityId: 'tsinghua', province: '甘肃', year: 2024, category: '理科', minScore: 692, avgScore: 697, minRank: 40, avgRank: 28, enrollment: 2 },
+  { universityId: 'hust', province: '甘肃', year: 2024, category: '理科', minScore: 600, avgScore: 606, minRank: 4500, avgRank: 3800, enrollment: 4 },
+
+  // ===== 青海 =====
+  { universityId: 'qhnu', province: '青海', year: 2024, category: '理科', minScore: 400, avgScore: 410, minRank: 8000, avgRank: 6800, enrollment: 5 },
+  { universityId: 'tsinghua', province: '青海', year: 2024, category: '理科', minScore: 680, avgScore: 685, minRank: 15, avgRank: 10, enrollment: 2 },
+
+  // ===== 宁夏 =====
+  { universityId: 'nxu', province: '宁夏', year: 2024, category: '理科', minScore: 470, avgScore: 478, minRank: 8000, avgRank: 6800, enrollment: 5 },
+  { universityId: 'tsinghua', province: '宁夏', year: 2024, category: '理科', minScore: 685, avgScore: 690, minRank: 15, avgRank: 10, enrollment: 2 },
+
+  // ===== 新疆 =====
+  { universityId: 'xju', province: '新疆', year: 2024, category: '理科', minScore: 490, avgScore: 498, minRank: 7000, avgRank: 6000, enrollment: 6 },
+  { universityId: 'tsinghua', province: '新疆', year: 2024, category: '理科', minScore: 688, avgScore: 693, minRank: 15, avgRank: 10, enrollment: 2 },
+  { universityId: 'hust', province: '新疆', year: 2024, category: '理科', minScore: 580, avgScore: 586, minRank: 3000, avgRank: 2500, enrollment: 4 },
+
+  // ===== 补充新增高校在各已有省份的分数线 =====
+  // 北京理工大学
+  { universityId: 'bit', province: '北京', year: 2024, category: '物理类', minScore: 658, avgScore: 664, minRank: 2200, avgRank: 1800, enrollment: 6 },
+  { universityId: 'bit', province: '河南', year: 2024, category: '理科', minScore: 654, avgScore: 660, minRank: 2400, avgRank: 1900, enrollment: 4 },
+  { universityId: 'bit', province: '广东', year: 2024, category: '物理类', minScore: 652, avgScore: 658, minRank: 2600, avgRank: 2100, enrollment: 4 },
+
+  // 复旦大学
+  { universityId: 'fudan', province: '河南', year: 2024, category: '理科', minScore: 680, avgScore: 685, minRank: 460, avgRank: 340, enrollment: 3 },
+  { universityId: 'fudan', province: '广东', year: 2024, category: '物理类', minScore: 676, avgScore: 681, minRank: 580, avgRank: 430, enrollment: 3 },
+
+  // 国防科技大学
+  { universityId: 'nudt', province: '河南', year: 2024, category: '理科', minScore: 640, avgScore: 646, minRank: 4200, avgRank: 3500, enrollment: 4 },
+  { universityId: 'nudt', province: '湖南', year: 2024, category: '物理类', minScore: 632, avgScore: 638, minRank: 4800, avgRank: 4000, enrollment: 8 },
+
+  // 西安电子科技大学
+  { universityId: 'xidian', province: '河南', year: 2024, category: '理科', minScore: 618, avgScore: 624, minRank: 7400, avgRank: 6400, enrollment: 6 },
+  { universityId: 'xidian', province: '陕西', year: 2024, category: '理科', minScore: 600, avgScore: 606, minRank: 8000, avgRank: 6800, enrollment: 10 },
+  { universityId: 'xidian', province: '广东', year: 2024, category: '物理类', minScore: 612, avgScore: 618, minRank: 8500, avgRank: 7200, enrollment: 5 },
+
+  // 东北大学
+  { universityId: 'neu', province: '辽宁', year: 2024, category: '物理类', minScore: 590, avgScore: 596, minRank: 14000, avgRank: 12000, enrollment: 8 },
+  { universityId: 'neu', province: '河南', year: 2024, category: '理科', minScore: 608, avgScore: 614, minRank: 9000, avgRank: 7800, enrollment: 5 },
+
+  // 四川大学
+  { universityId: 'scu', province: '四川', year: 2024, category: '理科', minScore: 620, avgScore: 626, minRank: 12000, avgRank: 10000, enrollment: 8 },
+  { universityId: 'scu', province: '河南', year: 2024, category: '理科', minScore: 624, avgScore: 630, minRank: 6800, avgRank: 5800, enrollment: 4 },
+
+  // 山东大学
+  { universityId: 'sdu', province: '山东', year: 2024, category: '综合', minScore: 630, avgScore: 636, minRank: 8000, avgRank: 6800, enrollment: 6 },
+  { universityId: 'sdu', province: '河南', year: 2024, category: '理科', minScore: 622, avgScore: 628, minRank: 7200, avgRank: 6200, enrollment: 4 },
+
+  // 重庆大学
+  { universityId: 'cqu', province: '河南', year: 2024, category: '理科', minScore: 610, avgScore: 616, minRank: 8600, avgRank: 7400, enrollment: 4 },
+
+  // 北京师范大学
+  { universityId: 'bnu', province: '北京', year: 2024, category: '物理类', minScore: 650, avgScore: 656, minRank: 2800, avgRank: 2300, enrollment: 4 },
+  { universityId: 'bnu', province: '河南', year: 2024, category: '理科', minScore: 636, avgScore: 642, minRank: 5000, avgRank: 4200, enrollment: 3 },
+
+  // 华东师范大学
+  { universityId: 'ecnu', province: '河南', year: 2024, category: '理科', minScore: 630, avgScore: 636, minRank: 5800, avgRank: 4900, enrollment: 3 },
+
+  // 兰州大学
+  { universityId: 'lzu', province: '河南', year: 2024, category: '理科', minScore: 598, avgScore: 604, minRank: 11000, avgRank: 9500, enrollment: 4 },
+
+  // 南京航空航天大学
+  { universityId: 'nuaa', province: '江苏', year: 2024, category: '物理类', minScore: 630, avgScore: 636, minRank: 8000, avgRank: 6800, enrollment: 5 },
+  { universityId: 'nuaa', province: '河南', year: 2024, category: '理科', minScore: 612, avgScore: 618, minRank: 8200, avgRank: 7000, enrollment: 4 },
+
+  // 南京理工大学
+  { universityId: 'njust', province: '江苏', year: 2024, category: '物理类', minScore: 626, avgScore: 632, minRank: 9000, avgRank: 7600, enrollment: 5 },
+  { universityId: 'njust', province: '河南', year: 2024, category: '理科', minScore: 608, avgScore: 614, minRank: 9000, avgRank: 7800, enrollment: 4 },
+
+  // 武汉理工大学
+  { universityId: 'hust_wut', province: '湖北', year: 2024, category: '物理类', minScore: 600, avgScore: 606, minRank: 12000, avgRank: 10000, enrollment: 6 },
+  { universityId: 'hust_wut', province: '河南', year: 2024, category: '理科', minScore: 600, avgScore: 606, minRank: 10000, avgRank: 8600, enrollment: 5 },
+
+  // 西南交通大学
+  { universityId: 'swjtu', province: '四川', year: 2024, category: '理科', minScore: 590, avgScore: 596, minRank: 22000, avgRank: 19000, enrollment: 6 },
+  { universityId: 'swjtu', province: '河南', year: 2024, category: '理科', minScore: 596, avgScore: 602, minRank: 12000, avgRank: 10400, enrollment: 5 },
+
+  // 南京邮电大学
+  { universityId: 'njupt', province: '江苏', year: 2024, category: '物理类', minScore: 590, avgScore: 596, minRank: 16000, avgRank: 13800, enrollment: 6 },
+  { universityId: 'njupt', province: '河南', year: 2024, category: '理科', minScore: 580, avgScore: 586, minRank: 18000, avgRank: 15600, enrollment: 5 },
+
+  // 杭州电子科技大学
+  { universityId: 'hdu', province: '浙江', year: 2024, category: '综合', minScore: 600, avgScore: 606, minRank: 50000, avgRank: 44000, enrollment: 6 },
+  { universityId: 'hdu', province: '河南', year: 2024, category: '理科', minScore: 575, avgScore: 581, minRank: 20000, avgRank: 17400, enrollment: 5 },
+
+  // 南方科技大学
+  { universityId: 'sustech', province: '广东', year: 2024, category: '物理类', minScore: 620, avgScore: 626, minRank: 9500, avgRank: 8000, enrollment: 5 },
+
+  // 深圳大学
+  { universityId: 'szu', province: '广东', year: 2024, category: '物理类', minScore: 598, avgScore: 604, minRank: 12000, avgRank: 10200, enrollment: 6 },
+
+  // 电子科大沙河
+  { universityId: 'uestc_us', province: '四川', year: 2024, category: '理科', minScore: 620, avgScore: 626, minRank: 12000, avgRank: 10000, enrollment: 6 },
+  { universityId: 'uestc_us', province: '河南', year: 2024, category: '理科', minScore: 628, avgScore: 634, minRank: 6400, avgRank: 5400, enrollment: 4 },
+
+  // 北京工业大学
+  { universityId: 'bjut', province: '北京', year: 2024, category: '物理类', minScore: 610, avgScore: 616, minRank: 8600, avgRank: 7400, enrollment: 6 },
+
+  // 华南师范大学
+  { universityId: 'scnu', province: '广东', year: 2024, category: '物理类', minScore: 580, avgScore: 586, minRank: 18000, avgRank: 15500, enrollment: 5 },
+
+  // 浙大城市学院
+  { universityId: 'zucc', province: '浙江', year: 2024, category: '综合', minScore: 550, avgScore: 558, minRank: 100000, avgRank: 90000, enrollment: 6 },
+
+  // 上海大学
+  { universityId: 'nuaa_cqu', province: '河南', year: 2024, category: '理科', minScore: 608, avgScore: 614, minRank: 9000, avgRank: 7800, enrollment: 4 },
+
+  // 苏州大学
+  { universityId: 'suda', province: '江苏', year: 2024, category: '物理类', minScore: 600, avgScore: 606, minRank: 13000, avgRank: 11000, enrollment: 5 },
+
+  // 郑州大学
+  { universityId: 'zzu', province: '河南', year: 2024, category: '理科', minScore: 580, avgScore: 586, minRank: 18000, avgRank: 15600, enrollment: 8 },
+  { universityId: 'zzu', province: '河南', year: 2023, category: '理科', minScore: 572, avgScore: 578, minRank: 19500, avgRank: 17000, enrollment: 8 },
+
+  // 河南大学
+  { universityId: 'henu', province: '河南', year: 2024, category: '理科', minScore: 545, avgScore: 551, minRank: 32000, avgRank: 28000, enrollment: 6 },
+
+  // 哈工大威海
+  { universityId: 'hit_wh', province: '山东', year: 2024, category: '综合', minScore: 620, avgScore: 626, minRank: 10000, avgRank: 8500, enrollment: 5 },
+  { universityId: 'hit_wh', province: '河南', year: 2024, category: '理科', minScore: 620, avgScore: 626, minRank: 7200, avgRank: 6200, enrollment: 4 },
+
+  // 长沙理工大学
+  { universityId: 'ccsu', province: '湖南', year: 2024, category: '物理类', minScore: 545, avgScore: 551, minRank: 42000, avgRank: 36000, enrollment: 5 },
+
+  // 湖南师范大学
+  { universityId: 'hunnu', province: '湖南', year: 2024, category: '物理类', minScore: 565, avgScore: 571, minRank: 28000, avgRank: 24000, enrollment: 5 },
+
+  // 湖北工业大学
+  { universityId: 'hbut', province: '湖北', year: 2024, category: '物理类', minScore: 540, avgScore: 546, minRank: 45000, avgRank: 39000, enrollment: 5 },
+
+  // 河北科技大学
+  { universityId: 'hebust', province: '河北', year: 2024, category: '物理类', minScore: 510, avgScore: 516, minRank: 75000, avgRank: 65000, enrollment: 5 },
+
+  // 安徽师范大学
+  { universityId: 'ahnu', province: '安徽', year: 2024, category: '理科', minScore: 520, avgScore: 526, minRank: 65000, avgRank: 56000, enrollment: 5 },
+
+  // 西安理工大学
+  { universityId: 'xaut', province: '陕西', year: 2024, category: '理科', minScore: 510, avgScore: 516, minRank: 32000, avgRank: 28000, enrollment: 5 },
+
+  // 福州大学
+  { universityId: 'fzu', province: '河南', year: 2024, category: '理科', minScore: 590, avgScore: 596, minRank: 14000, avgRank: 12000, enrollment: 4 },
+
+  // 重庆邮电大学
+  { universityId: 'cqupt', province: '河南', year: 2024, category: '理科', minScore: 565, avgScore: 571, minRank: 24000, avgRank: 20800, enrollment: 5 },
+
+  // 北京理工大学补充
+  { universityId: 'bit', province: '四川', year: 2024, category: '理科', minScore: 650, avgScore: 656, minRank: 2800, avgRank: 2300, enrollment: 4 },
+  { universityId: 'bit', province: '湖北', year: 2024, category: '物理类', minScore: 648, avgScore: 654, minRank: 3000, avgRank: 2500, enrollment: 4 },
+
+  // 天津大学补充
+  { universityId: 'tju', province: '河南', year: 2024, category: '理科', minScore: 636, avgScore: 642, minRank: 5000, avgRank: 4200, enrollment: 4 },
+  { universityId: 'tju', province: '广东', year: 2024, category: '物理类', minScore: 634, avgScore: 640, minRank: 5200, avgRank: 4400, enrollment: 4 },
+
+  // 吉林大学补充
+  { universityId: 'jlu', province: '河南', year: 2024, category: '理科', minScore: 598, avgScore: 604, minRank: 11000, avgRank: 9500, enrollment: 4 },
+
+  // 大连理工大学补充
+  { universityId: 'dlut', province: '辽宁', year: 2024, category: '物理类', minScore: 600, avgScore: 606, minRank: 11000, avgRank: 9400, enrollment: 6 },
+
+  // 中山大学补充
+  { universityId: 'sysu', province: '广东', year: 2024, category: '物理类', minScore: 628, avgScore: 634, minRank: 6800, avgRank: 5800, enrollment: 8 },
+
+  // 厦门大学补充
+  { universityId: 'xmu', province: '河南', year: 2024, category: '理科', minScore: 618, avgScore: 624, minRank: 7400, avgRank: 6400, enrollment: 3 },
+
+  // 南开大学补充
+  { universityId: 'nankai', province: '河南', year: 2024, category: '理科', minScore: 638, avgScore: 644, minRank: 4200, avgRank: 3500, enrollment: 3 },
+
+  // 同济大学补充
+  { universityId: 'tongji', province: '上海', year: 2024, category: '物理类', minScore: 660, avgScore: 666, minRank: 1800, avgRank: 1400, enrollment: 5 },
+
+  // 东南大学补充
+  { universityId: 'seu', province: '河南', year: 2024, category: '理科', minScore: 640, avgScore: 646, minRank: 3800, avgRank: 3100, enrollment: 4 },
+
+  // 华南理工补充
+  { universityId: 'scut', province: '广东', year: 2024, category: '物理类', minScore: 630, avgScore: 636, minRank: 6200, avgRank: 5200, enrollment: 8 },
+
+  // 中科大补充
+  { universityId: 'ustc', province: '安徽', year: 2024, category: '理科', minScore: 670, avgScore: 675, minRank: 600, avgRank: 450, enrollment: 5 },
+  { universityId: 'ustc', province: '安徽', year: 2023, category: '理科', minScore: 666, avgScore: 671, minRank: 640, avgRank: 480, enrollment: 5 },
 ]
 
 // 获取某省份某高校的历年分数线
