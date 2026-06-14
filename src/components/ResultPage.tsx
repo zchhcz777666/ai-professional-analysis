@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { MatchResult, UserInput } from '@/types'
 import UniversityCard from './UniversityCard'
 import AIAnalysis from './AIAnalysis'
@@ -20,9 +20,19 @@ export default function ResultPage({
   const [selectedUniversity, setSelectedUniversity] = useState<MatchResult | null>(null)
   const [showAnalysis, setShowAnalysis] = useState(false)
 
+  const [tierFilter, setTierFilter] = useState<'全部' | '冲' | '稳' | '保'>('全部')
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [])
+
   const chongList = results.filter(r => r.tier === '冲')
   const wenList = results.filter(r => r.tier === '稳')
   const baoList = results.filter(r => r.tier === '保')
+
+  const filteredResults = tierFilter === '全部'
+    ? results
+    : results.filter(r => r.tier === tierFilter)
 
   const handleAnalyze = (result: MatchResult) => {
     setSelectedUniversity(result)
@@ -59,20 +69,31 @@ export default function ResultPage({
 
       <div className="max-w-5xl mx-auto px-4 py-6">
         {/* 概览统计 */}
-        <div className="grid grid-cols-3 gap-3 mb-6">
-          <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-center">
+        <div className="grid grid-cols-3 gap-3 mb-4">
+          <button onClick={() => setTierFilter(tierFilter === '冲' ? '全部' : '冲')} className={`rounded-xl p-3 text-center transition-colors ${tierFilter === '冲' ? 'bg-red-100 border-red-300 ring-2 ring-red-300' : 'bg-red-50 border-red-200'} border`}>
             <div className="text-2xl font-bold text-red-600">{chongList.length}</div>
             <div className="text-sm text-red-500">冲刺</div>
-          </div>
-          <div className="bg-green-50 border border-green-200 rounded-xl p-3 text-center">
+          </button>
+          <button onClick={() => setTierFilter(tierFilter === '稳' ? '全部' : '稳')} className={`rounded-xl p-3 text-center transition-colors ${tierFilter === '稳' ? 'bg-green-100 border-green-300 ring-2 ring-green-300' : 'bg-green-50 border-green-200'} border`}>
             <div className="text-2xl font-bold text-green-600">{wenList.length}</div>
             <div className="text-sm text-green-500">稳妥</div>
-          </div>
-          <div className="bg-blue-50 border border-blue-200 rounded-xl p-3 text-center">
+          </button>
+          <button onClick={() => setTierFilter(tierFilter === '保' ? '全部' : '保')} className={`rounded-xl p-3 text-center transition-colors ${tierFilter === '保' ? 'bg-blue-100 border-blue-300 ring-2 ring-blue-300' : 'bg-blue-50 border-blue-200'} border`}>
             <div className="text-2xl font-bold text-blue-600">{baoList.length}</div>
             <div className="text-sm text-blue-500">保底</div>
-          </div>
+          </button>
         </div>
+
+        {tierFilter !== '全部' && (
+          <div className="flex items-center justify-between mb-3">
+            <span className="text-sm text-slate-500">
+              {tierFilter === '冲' ? '冲刺' : tierFilter === '稳' ? '稳妥' : '保底'}院校 {filteredResults.length} 所
+            </span>
+            <button onClick={() => setTierFilter('全部')} className="text-sm text-blue-600 hover:text-blue-700">
+              查看全部
+            </button>
+          </div>
+        )}
 
         {results.length === 0 && (
           <div className="text-center py-12">
@@ -82,14 +103,14 @@ export default function ResultPage({
         )}
 
         {/* 按匹配度排序展示 */}
-        {results.length > 0 && (
+        {filteredResults.length > 0 && (
           <section>
             <div className="flex items-center gap-2 mb-3">
               <h2 className="text-lg font-semibold text-slate-800">推荐院校</h2>
               <span className="text-xs text-slate-400">按匹配度从高到低排序</span>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              {results.map(result => (
+              {filteredResults.map(result => (
                 <UniversityCard
                   key={result.university.id}
                   result={result}
