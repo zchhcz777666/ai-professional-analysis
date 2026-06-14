@@ -96,15 +96,7 @@ export default function UniversityCard({ result, onAnalyze, callsRemaining }: Un
       </div>
 
       {/* 底部操作 */}
-      <div className="flex items-center justify-between pt-2 border-t border-slate-100">
-        <div className="flex gap-3 text-xs text-slate-400">
-          {university.employmentRate && (
-            <span>就业率 {(university.employmentRate * 100).toFixed(0)}%</span>
-          )}
-          {university.furtherStudyRate && (
-            <span>深造率 {(university.furtherStudyRate * 100).toFixed(0)}%</span>
-          )}
-        </div>
+      <div className="flex items-center justify-end pt-2 border-t border-slate-100">
         <button
           onClick={() => onAnalyze(result)}
           disabled={callsRemaining <= 0}
