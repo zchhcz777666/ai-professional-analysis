@@ -54,6 +54,12 @@ export function matchUniversities(input: UserInput): MatchResult[] {
     // 取最近一年的数据作为主要参考
     const latestRecord = records.sort((a, b) => b.year - a.year)[0]
 
+    // 分数预筛选：只保留与考生分数差距在合理范围内的学校
+    // 冲刺上限：考生分数低于学校最低分不超过80分
+    // 保底下限：考生分数高于学校最低分不超过80分
+    const scoreDiff = score - latestRecord.minScore
+    if (scoreDiff < -80 || scoreDiff > 80) continue
+
     // 计算平均位次（近3年加权平均，越近权重越大）
     const avgMinRank = calculateWeightedAvgRank(records)
 
