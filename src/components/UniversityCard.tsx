@@ -54,7 +54,7 @@ export default function UniversityCard({ result, onAnalyze, callsRemaining }: Un
       {/* 历年分数线 */}
       {latestRecord && (
         <div className="bg-slate-50 rounded-lg p-3 mb-3">
-          <div className="text-xs text-slate-400 mb-1.5">历年录取数据（{university.province}）</div>
+          <div className="text-xs text-slate-400 mb-1.5">历年录取数据（{latestRecord.province}）</div>
           <div className="overflow-x-auto">
             <table className="w-full text-xs">
               <thead>
