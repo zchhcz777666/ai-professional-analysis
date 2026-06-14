@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2563eb;
+  --color-primary-light: #3b82f6;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+  --color-success: #22c55e;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+/* 冲稳保颜色 */
+.tier-chong { color: #ef4444; border-color: #ef4444; background: #fef2f2; }
+.tier-wen { color: #22c55e; border-color: #22c55e; background: #f0fdf4; }
+.tier-bao { color: #3b82f6; border-color: #3b82f6; background: #eff6ff; }
+
+.tier-badge-chong { background: #ef4444; color: white; }
+.tier-badge-wen { background: #22c55e; color: white; }
+.tier-badge-bao { background: #3b82f6; color: white; }
+
+/* 风险等级 */
+.risk-high { color: #ef4444; }
+.risk-medium { color: #f59e0b; }
+.risk-low { color: #22c55e; }
+
+/* 卡片悬浮效果 */
+.card-hover {
+  transition: all 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* 流式输出动画 */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+.cursor-blink::after {
+  content: '▊';
+  animation: blink 1s infinite;
+  color: #2563eb;
+}
+
+/* 进度条 */
+.quota-bar {
+  height: 6px;
+  border-radius: 3px;
+  background: #e5e7eb;
+  overflow: hidden;
+}
+.quota-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  transition: width 0.3s ease;
+}
