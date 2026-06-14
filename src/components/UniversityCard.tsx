@@ -67,7 +67,7 @@ export default function UniversityCard({ result, onAnalyze, callsRemaining }: Un
                 </tr>
               </thead>
               <tbody>
-                {scoreRecords.slice(0, 3).map(record => (
+                {scoreRecords.map(record => (
                   <tr key={record.year} className="text-slate-700">
                     <td className="py-0.5 pr-2">{record.year}</td>
                     <td className="text-right py-0.5 pr-2 font-medium">{record.minScore}</td>
