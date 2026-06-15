@@ -1,0 +1,1269 @@
+{
+  "matched": {
+    "tsinghua": {
+      "url": "https://www.dxsbb.com/news/31641.html",
+      "title": "2024清华大学录取分数线（含2022-2023历年）2025-5-10",
+      "uniName": "清华大学"
+    },
+    "pku": {
+      "url": "https://www.dxsbb.com/news/31640.html",
+      "title": "2025北京大学录取分数线（含2023-2024历年）2026-3-14",
+      "uniName": "北京大学"
+    },
+    "zju": {
+      "url": "https://www.dxsbb.com/news/33094.html",
+      "title": "2024浙江大学录取分数线（含2022-2023历年）2025-6-20",
+      "uniName": "浙江大学"
+    },
+    "sjtu": {
+      "url": "https://www.dxsbb.com/news/32618.html",
+      "title": "2025上海交通大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "上海交通大学"
+    },
+    "nju": {
+      "url": "https://www.dxsbb.com/news/32775.html",
+      "title": "2025南京大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "南京大学"
+    },
+    "ustc": {
+      "url": "https://www.dxsbb.com/news/33364.html",
+      "title": "2025中国科学技术大学录取分数线（含2023-2024历年）2026-5-27",
+      "uniName": "中国科学技术大学"
+    },
+    "hust": {
+      "url": "https://www.dxsbb.com/news/32992.html",
+      "title": "2025华中科技大学录取分数线（含2023-2024历年）2026-4-9",
+      "uniName": "华中科技大学"
+    },
+    "xjtu": {
+      "url": "https://www.dxsbb.com/news/33772.html",
+      "title": "2025西安交通大学录取分数线（含2023-2024历年）2026-4-21",
+      "uniName": "西安交通大学"
+    },
+    "uestc": {
+      "url": "https://www.dxsbb.com/news/33576.html",
+      "title": "2024电子科技大学录取分数线（含2022-2023历年）2025-5-13",
+      "uniName": "电子科技大学"
+    },
+    "hit": {
+      "url": "https://www.dxsbb.com/news/32688.html",
+      "title": "2024哈尔滨工业大学录取分数线（含2022-2023历年）2025-4-24",
+      "uniName": "哈尔滨工业大学"
+    },
+    "buaa": {
+      "url": "https://www.dxsbb.com/news/31712.html",
+      "title": "2024北京航空航天大学录取分数线（含2022-2023历年）2025-4-23",
+      "uniName": "北京航空航天大学"
+    },
+    "tongji": {
+      "url": "https://www.dxsbb.com/news/32617.html",
+      "title": "2024同济大学录取分数线（含2022-2023历年）2025-6-20",
+      "uniName": "同济大学"
+    },
+    "whu": {
+      "url": "https://www.dxsbb.com/news/32991.html",
+      "title": "2025武汉大学录取分数线（含2023-2024历年）2026-6-11",
+      "uniName": "武汉大学"
+    },
+    "sysu": {
+      "url": "https://www.dxsbb.com/news/33880.html",
+      "title": "2024中山大学录取分数线（含2022-2023历年）2025-4-27",
+      "uniName": "中山大学"
+    },
+    "bupt": {
+      "url": "https://www.dxsbb.com/news/31755.html",
+      "title": "2025北京邮电大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "北京邮电大学"
+    },
+    "seu": {
+      "url": "https://www.dxsbb.com/news/32777.html",
+      "title": "2025东南大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "东南大学"
+    },
+    "scut": {
+      "url": "https://www.dxsbb.com/news/33904.html",
+      "title": "2024华南理工大学录取分数线（含2022-2023历年）2025-6-6",
+      "uniName": "华南理工大学"
+    },
+    "dlut": {
+      "url": "https://www.dxsbb.com/news/32446.html",
+      "title": "2025大连理工大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "大连理工大学"
+    },
+    "nankai": {
+      "url": "https://www.dxsbb.com/news/31774.html",
+      "title": "2024南开大学录取分数线（含2022-2023历年）2025-6-11",
+      "uniName": "南开大学"
+    },
+    "hit_sz": {
+      "url": "https://www.dxsbb.com/news/33970.html",
+      "title": "2025深圳大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "哈尔滨工业大学（深圳）"
+    },
+    "ruc": {
+      "url": "https://www.dxsbb.com/news/31660.html",
+      "title": "2023中国人民大学录取分数线（含2021-2022历年）2025-4-18",
+      "uniName": "中国人民大学"
+    },
+    "xmu": {
+      "url": "https://www.dxsbb.com/news/32641.html",
+      "title": "2025厦门大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "厦门大学"
+    },
+    "cug": {
+      "url": "https://www.dxsbb.com/news/31710.html",
+      "title": "2024北京交通大学录取分数线（含2022-2023历年）2025-5-9",
+      "uniName": "北京交通大学"
+    },
+    "nwpu": {
+      "url": "https://www.dxsbb.com/news/33773.html",
+      "title": "2024西北工业大学录取分数线（含2022-2023历年）2025-5-13",
+      "uniName": "西北工业大学"
+    },
+    "hnu": {
+      "url": "https://www.dxsbb.com/news/33503.html",
+      "title": "2025湖南大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "湖南大学"
+    },
+    "csu": {
+      "url": "https://www.dxsbb.com/news/33526.html",
+      "title": "2025中南大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "中南大学"
+    },
+    "bit": {
+      "url": "https://www.dxsbb.com/news/31713.html",
+      "title": "2024北京理工大学录取分数线（含2022-2023历年）2025-4-17",
+      "uniName": "北京理工大学"
+    },
+    "fudan": {
+      "url": "https://www.dxsbb.com/news/32616.html",
+      "title": "2025复旦大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "复旦大学"
+    },
+    "tju": {
+      "url": "https://www.dxsbb.com/news/31777.html",
+      "title": "2024天津大学录取分数线（含2022-2023历年）2025-4-23",
+      "uniName": "天津大学"
+    },
+    "jlu": {
+      "url": "https://www.dxsbb.com/news/32399.html",
+      "title": "2025吉林大学录取分数线（含2023-2024年）2026-3-24",
+      "uniName": "吉林大学"
+    },
+    "cqu": {
+      "url": "https://www.dxsbb.com/news/33443.html",
+      "title": "2025重庆大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "重庆大学"
+    },
+    "scu": {
+      "url": "https://www.dxsbb.com/news/33574.html",
+      "title": "2025四川大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "四川大学"
+    },
+    "sdu": {
+      "url": "https://www.dxsbb.com/news/99700.html",
+      "title": "2025山东大学录取分数线（含2023-2024历年）2026-4-7",
+      "uniName": "山东大学"
+    },
+    "nudt": {
+      "url": "https://www.dxsbb.com/news/116717.html",
+      "title": "2024安徽国防科技职业学院录取分数线（含2022-2023历年）2025-5-12",
+      "uniName": "国防科技大学"
+    },
+    "bnu": {
+      "url": "https://www.dxsbb.com/news/31830.html",
+      "title": "2024北京师范大学录取分数线（含2022-2023历年）2025-4-23",
+      "uniName": "北京师范大学"
+    },
+    "ecnu": {
+      "url": "https://www.dxsbb.com/news/32668.html",
+      "title": "2025华东师范大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "华东师范大学"
+    },
+    "lzu": {
+      "url": "https://www.dxsbb.com/news/33487.html",
+      "title": "2025兰州大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "兰州大学"
+    },
+    "xidian": {
+      "url": "https://www.dxsbb.com/news/33775.html",
+      "title": "2025西安电子科技大学录取分数线（含2023-2024历年）2026-4-21",
+      "uniName": "西安电子科技大学"
+    },
+    "nuaa": {
+      "url": "https://www.dxsbb.com/news/32778.html",
+      "title": "2024南京航空航天大学录取分数线（含2022-2023历年）2025-6-6",
+      "uniName": "南京航空航天大学"
+    },
+    "njust": {
+      "url": "https://www.dxsbb.com/news/32803.html",
+      "title": "2024南京理工大学录取分数线（含2022-2023历年）2025-5-10",
+      "uniName": "南京理工大学"
+    },
+    "hust_wut": {
+      "url": "https://www.dxsbb.com/news/33012.html",
+      "title": "2025武汉理工大学录取分数线（含2023-2024历年）2026-4-9",
+      "uniName": "武汉理工大学"
+    },
+    "swjtu": {
+      "url": "https://www.dxsbb.com/news/33575.html",
+      "title": "2025西南交通大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "西南交通大学"
+    },
+    "njupt": {
+      "url": "https://www.dxsbb.com/news/32808.html",
+      "title": "2025南京邮电大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "南京邮电大学"
+    },
+    "hdu": {
+      "url": "https://www.dxsbb.com/news/33095.html",
+      "title": "2024杭州电子科技大学录取分数线（含2022-2023历年）2025-6-6",
+      "uniName": "杭州电子科技大学"
+    },
+    "cqupt": {
+      "url": "https://www.dxsbb.com/news/33445.html",
+      "title": "2025重庆邮电大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "重庆邮电大学"
+    },
+    "sustech": {
+      "url": "https://www.dxsbb.com/news/34098.html",
+      "title": "2019南方科技大学录取分数线（含2018-2019历年）2022-9-28",
+      "uniName": "南方科技大学"
+    },
+    "szu": {
+      "url": "https://www.dxsbb.com/news/33970.html",
+      "title": "2025深圳大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "深圳大学"
+    },
+    "uestc_us": {
+      "url": "https://www.dxsbb.com/news/33576.html",
+      "title": "2024电子科技大学录取分数线（含2022-2023历年）2025-5-13",
+      "uniName": "电子科技大学（沙河校区）"
+    },
+    "neu": {
+      "url": "https://www.dxsbb.com/news/32517.html",
+      "title": "2025东北大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "东北大学"
+    },
+    "bjut": {
+      "url": "https://www.dxsbb.com/news/31711.html",
+      "title": "2025北京工业大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "北京工业大学"
+    },
+    "scnu": {
+      "url": "https://www.dxsbb.com/news/33929.html",
+      "title": "2025华南师范大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "华南师范大学"
+    },
+    "zucc": {
+      "url": "https://www.dxsbb.com/news/33258.html",
+      "title": "2025浙大城市学院录取分数线（含2023-2024历年）2026-4-1",
+      "uniName": "浙大城市学院"
+    },
+    "nuaa_cqu": {
+      "url": "https://www.dxsbb.com/news/32678.html",
+      "title": "2025上海大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "上海大学"
+    },
+    "suda": {
+      "url": "https://www.dxsbb.com/news/32776.html",
+      "title": "2025苏州大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "苏州大学"
+    },
+    "ccsu": {
+      "url": "https://www.dxsbb.com/news/33532.html",
+      "title": "2025长沙理工大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "长沙理工大学"
+    },
+    "hunnu": {
+      "url": "https://www.dxsbb.com/news/33547.html",
+      "title": "2025湖南师范大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "湖南师范大学"
+    },
+    "gxu": {
+      "url": "https://www.dxsbb.com/news/33064.html",
+      "title": "2025广西大学录取分数线（含2023-2024历年）2026-4-14",
+      "uniName": "广西大学"
+    },
+    "ynu": {
+      "url": "https://www.dxsbb.com/news/33692.html",
+      "title": "2025云南大学录取分数线（含2023-2024历年）2026-4-21",
+      "uniName": "云南大学"
+    },
+    "guet": {
+      "url": "https://www.dxsbb.com/news/33066.html",
+      "title": "2025桂林电子科技大学录取分数线（含2023-2024历年）2026-4-14",
+      "uniName": "桂林电子科技大学"
+    },
+    "hrbeu": {
+      "url": "https://www.dxsbb.com/news/32732.html",
+      "title": "2025哈尔滨工程大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "哈尔滨工程大学"
+    },
+    "nepu": {
+      "url": "https://www.dxsbb.com/news/32734.html",
+      "title": "2025东北石油大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "东北石油大学"
+    },
+    "zzu": {
+      "url": "https://www.dxsbb.com/news/33271.html",
+      "title": "2025郑州大学录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "郑州大学"
+    },
+    "fzu": {
+      "url": "https://www.dxsbb.com/news/32643.html",
+      "title": "2025福州大学录取分数线（含2023-2024历年）2026-5-28",
+      "uniName": "福州大学"
+    },
+    "jxnu": {
+      "url": "https://www.dxsbb.com/news/32848.html",
+      "title": "2025江西师范大学录取分数线（含2023-2024历年）2026-6-1",
+      "uniName": "江西师范大学"
+    },
+    "henu": {
+      "url": "https://www.dxsbb.com/news/33318.html",
+      "title": "2025河南大学录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "河南大学"
+    },
+    "xaut": {
+      "url": "https://www.dxsbb.com/news/33774.html",
+      "title": "2024西安理工大学录取分数线（含2022-2023历年）2025-4-28",
+      "uniName": "西安理工大学"
+    },
+    "ahnu": {
+      "url": "https://www.dxsbb.com/news/33407.html",
+      "title": "2025安徽师范大学录取分数线（含2023-2024历年）2026-4-1",
+      "uniName": "安徽师范大学"
+    },
+    "nchu": {
+      "url": "https://www.dxsbb.com/news/32842.html",
+      "title": "2025南昌航空大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "南昌航空大学"
+    },
+    "hbut": {
+      "url": "https://www.dxsbb.com/news/33013.html",
+      "title": "2025湖北工业大学录取分数线（含2023-2024历年）2026-4-9",
+      "uniName": "湖北工业大学"
+    },
+    "cqjtu": {
+      "url": "https://www.dxsbb.com/news/33448.html",
+      "title": "2025重庆交通大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "重庆交通大学"
+    },
+    "hebust": {
+      "url": "https://www.dxsbb.com/news/32047.html",
+      "title": "2025河北科技大学录取分数线（含2023-2024历年）2026-3-18",
+      "uniName": "河北科技大学"
+    },
+    "sxu": {
+      "url": "https://www.dxsbb.com/news/32129.html",
+      "title": "2025山西大学录取分数线（含2023-2024历年）2026-3-19",
+      "uniName": "山西大学"
+    },
+    "imust": {
+      "url": "https://www.dxsbb.com/news/32307.html",
+      "title": "2025内蒙古科技大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "内蒙古科技大学"
+    },
+    "xju": {
+      "url": "https://www.dxsbb.com/news/33650.html",
+      "title": "2025新疆大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "新疆大学"
+    },
+    "gsu": {
+      "url": "https://www.dxsbb.com/news/70463.html",
+      "title": "2025贵州大学录取分数线（含2023-2024历年）2026-4-16",
+      "uniName": "贵州大学"
+    },
+    "qhnu": {
+      "url": "https://www.dxsbb.com/news/33587.html",
+      "title": "2024青海师范大学录取分数线（含2022-2023历年）2025-6-9",
+      "uniName": "青海师范大学"
+    },
+    "nxu": {
+      "url": "https://www.dxsbb.com/news/33592.html",
+      "title": "2025宁夏大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "宁夏大学"
+    },
+    "hit_wh": {
+      "url": "https://www.dxsbb.com/news/32831.html",
+      "title": "2025哈尔滨学院录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "哈尔滨工业大学（威海）"
+    },
+    "hainanu": {
+      "url": "https://www.dxsbb.com/news/33218.html",
+      "title": "2025海南大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "海南大学"
+    },
+    "tibetu": {
+      "url": "https://www.dxsbb.com/news/33768.html",
+      "title": "2024西藏大学录取分数线（含2022-2023历年）2025-5-10",
+      "uniName": "西藏大学"
+    },
+    "ustb": {
+      "url": "https://www.dxsbb.com/news/31714.html",
+      "title": "2025北京科技大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "北京科技大学"
+    },
+    "cuc": {
+      "url": "https://www.dxsbb.com/news/31880.html",
+      "title": "2025中国传媒大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "中国传媒大学"
+    },
+    "cau": {
+      "url": "https://www.dxsbb.com/news/31802.html",
+      "title": "2024中国农业大学录取分数线（含2022-2023历年）2025-4-23",
+      "uniName": "中国农业大学"
+    },
+    "jiangnan": {
+      "url": "https://www.dxsbb.com/news/32812.html",
+      "title": "2025江南大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "江南大学"
+    },
+    "jnu": {
+      "url": "https://www.dxsbb.com/news/33881.html",
+      "title": "2025暨南大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "暨南大学"
+    },
+    "whut": {
+      "url": "https://www.dxsbb.com/news/33012.html",
+      "title": "2025武汉理工大学录取分数线（含2023-2024历年）2026-4-9",
+      "uniName": "武汉理工大学"
+    },
+    "ecust": {
+      "url": "https://www.dxsbb.com/news/32619.html",
+      "title": "2025华东理工大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "华东理工大学"
+    },
+    "hhu": {
+      "url": "https://www.dxsbb.com/news/32810.html",
+      "title": "2025河海大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "河海大学"
+    },
+    "bjut2": {
+      "url": "https://www.dxsbb.com/news/31711.html",
+      "title": "2025北京工业大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "北京工业大学"
+    },
+    "hebut": {
+      "url": "https://www.dxsbb.com/news/32046.html",
+      "title": "2025河北工业大学录取分数线（含2023-2024历年）2026-3-18",
+      "uniName": "河北工业大学"
+    },
+    "zzu2": {
+      "url": "https://www.dxsbb.com/news/33271.html",
+      "title": "2025郑州大学录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "郑州大学"
+    },
+    "nuist": {
+      "url": "https://www.dxsbb.com/news/32821.html",
+      "title": "2025南京信息工程大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "南京信息工程大学"
+    },
+    "swu": {
+      "url": "https://www.dxsbb.com/news/33452.html",
+      "title": "2025西南大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "西南大学"
+    },
+    "cumt": {
+      "url": "https://www.dxsbb.com/news/32805.html",
+      "title": "2025中国矿业大学录取分数线（含2023-2024历年）2026-5-14",
+      "uniName": "中国矿业大学"
+    },
+    "shu": {
+      "url": "https://www.dxsbb.com/news/32678.html",
+      "title": "2025上海大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "上海大学"
+    },
+    "kmust": {
+      "url": "https://www.dxsbb.com/news/33693.html",
+      "title": "2025昆明理工大学录取分数线（含2023-2024历年）2026-4-21",
+      "uniName": "昆明理工大学"
+    },
+    "buct": {
+      "url": "https://www.dxsbb.com/news/31752.html",
+      "title": "2025北京化工大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "北京化工大学"
+    },
+    "ahu": {
+      "url": "https://www.dxsbb.com/news/33363.html",
+      "title": "2025安徽大学录取分数线（含2023-2024历年）2026-4-1",
+      "uniName": "安徽大学"
+    },
+    "chd": {
+      "url": "https://www.dxsbb.com/news/33821.html",
+      "title": "2024长安大学录取分数线（含2022-2023历年）2025-4-28",
+      "uniName": "长安大学"
+    },
+    "sxu2": {
+      "url": "https://www.dxsbb.com/news/32129.html",
+      "title": "2025山西大学录取分数线（含2023-2024历年）2026-3-19",
+      "uniName": "山西大学"
+    },
+    "fzu2": {
+      "url": "https://www.dxsbb.com/news/32643.html",
+      "title": "2025福州大学录取分数线（含2023-2024历年）2026-5-28",
+      "uniName": "福州大学"
+    },
+    "gzu2": {
+      "url": "https://www.dxsbb.com/news/70463.html",
+      "title": "2025贵州大学录取分数线（含2023-2024历年）2026-4-16",
+      "uniName": "贵州大学"
+    },
+    "ncepu": {
+      "url": "https://www.dxsbb.com/news/32011.html",
+      "title": "2025华北电力大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "华北电力大学"
+    },
+    "ynu2": {
+      "url": "https://www.dxsbb.com/news/33692.html",
+      "title": "2025云南大学录取分数线（含2023-2024历年）2026-4-21",
+      "uniName": "云南大学"
+    },
+    "dlmu": {
+      "url": "https://www.dxsbb.com/news/32523.html",
+      "title": "2025大连海事大学录取分数线（含2023-2024历年）2026-3-23",
+      "uniName": "大连海事大学"
+    },
+    "ccnu": {
+      "url": "https://www.dxsbb.com/news/33016.html",
+      "title": "2024华中师范大学录取分数线（含2022-2023历年）2025-5-10",
+      "uniName": "华中师范大学"
+    },
+    "dhu": {
+      "url": "https://www.dxsbb.com/news/32623.html",
+      "title": "2025东华大学录取分数线（含2023-2024历年）2026-5-12",
+      "uniName": "东华大学"
+    },
+    "shnu": {
+      "url": "https://www.dxsbb.com/news/32669.html",
+      "title": "2025上海师范大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "上海师范大学"
+    },
+    "henu2": {
+      "url": "https://www.dxsbb.com/news/33318.html",
+      "title": "2025河南大学录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "河南大学"
+    },
+    "cumtb": {
+      "url": "https://www.dxsbb.com/news/32014.html",
+      "title": "2025中国矿业大学（北京）录取分数线（含2023-2024历年）2026-3-18",
+      "uniName": "中国矿业大学（北京）"
+    },
+    "fjnu": {
+      "url": "https://www.dxsbb.com/news/32649.html",
+      "title": "2025福建师范大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "福建师范大学"
+    },
+    "gdut": {
+      "url": "https://www.dxsbb.com/news/34007.html",
+      "title": "2025广东工业大学录取分数线（含2023-2024历年）2026-4-14",
+      "uniName": "广东工业大学"
+    },
+    "tyut": {
+      "url": "https://www.dxsbb.com/news/32132.html",
+      "title": "2025太原理工大学录取分数线（含2023-2024历年）2026-3-19",
+      "uniName": "太原理工大学"
+    },
+    "usst": {
+      "url": "https://www.dxsbb.com/news/32620.html",
+      "title": "2025上海理工大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "上海理工大学"
+    },
+    "scau": {
+      "url": "https://www.dxsbb.com/news/33905.html",
+      "title": "2025华南农业大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "华南农业大学"
+    },
+    "yzu": {
+      "url": "https://www.dxsbb.com/news/32951.html",
+      "title": "2025扬州大学录取分数线（含2023-2024历年）2026-3-31",
+      "uniName": "扬州大学"
+    },
+    "cnu": {
+      "url": "https://www.dxsbb.com/news/31831.html",
+      "title": "2025首都师范大学录取分数线（含2024-2024历年）2026-3-17",
+      "uniName": "首都师范大学"
+    },
+    "muc": {
+      "url": "https://www.dxsbb.com/news/31962.html",
+      "title": "2025中央民族大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "中央民族大学"
+    },
+    "ncut": {
+      "url": "https://www.dxsbb.com/news/31751.html",
+      "title": "2025北方工业大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "北方工业大学"
+    },
+    "guet2": {
+      "url": "https://www.dxsbb.com/news/33066.html",
+      "title": "2025桂林电子科技大学录取分数线（含2023-2024历年）2026-4-14",
+      "uniName": "桂林电子科技大学"
+    },
+    "sdnu": {
+      "url": "https://www.dxsbb.com/news/33109.html",
+      "title": "2025山东师范大学录取分数线（含2023-2024历年）2026-4-7",
+      "uniName": "山东师范大学"
+    },
+    "wzu": {
+      "url": "https://www.dxsbb.com/news/33153.html",
+      "title": "2025温州大学录取分数线（含2023-2024历年）2026-5-20",
+      "uniName": "温州大学"
+    },
+    "xupt": {
+      "url": "https://www.dxsbb.com/news/33892.html",
+      "title": "2025西安邮电大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "西安邮电大学"
+    },
+    "ncepubd": {
+      "url": "https://www.dxsbb.com/news/32011.html",
+      "title": "2025华北电力大学录取分数线（含2023-2024历年）2026-3-17",
+      "uniName": "华北电力大学（保定）"
+    },
+    "xaut2": {
+      "url": "https://www.dxsbb.com/news/33774.html",
+      "title": "2024西安理工大学录取分数线（含2022-2023历年）2025-4-28",
+      "uniName": "西安理工大学"
+    },
+    "zjnu": {
+      "url": "https://www.dxsbb.com/news/33148.html",
+      "title": "2025浙江师范大学录取分数线（含2023-2024历年）2026-5-20",
+      "uniName": "浙江师范大学"
+    },
+    "zjgsu": {
+      "url": "https://www.dxsbb.com/news/33155.html",
+      "title": "2025浙江工商大学录取分数线（含2023-2024历年）2026-4-1",
+      "uniName": "浙江工商大学"
+    },
+    "tjut": {
+      "url": "https://www.dxsbb.com/news/31833.html",
+      "title": "2024天津理工大学录取分数线（含2022-2023历年）2025-5-10",
+      "uniName": "天津理工大学"
+    },
+    "xtu": {
+      "url": "https://www.dxsbb.com/news/33486.html",
+      "title": "2025湘潭大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "湘潭大学"
+    },
+    "hzau": {
+      "url": "https://www.dxsbb.com/news/33014.html",
+      "title": "2025华中农业大学录取分数线（含2023-2024历年）2026-6-11",
+      "uniName": "华中农业大学"
+    },
+    "ecjtu": {
+      "url": "https://www.dxsbb.com/news/32840.html",
+      "title": "2025华东交通大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "华东交通大学"
+    },
+    "csust": {
+      "url": "https://www.dxsbb.com/news/33532.html",
+      "title": "2025长沙理工大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "长沙理工大学"
+    },
+    "bist": {
+      "url": "https://www.dxsbb.com/news/32013.html",
+      "title": "2024北京信息科技大学录取分数线（含2022-2023历年）2025-4-23",
+      "uniName": "北京信息科技大学"
+    },
+    "njnu": {
+      "url": "https://www.dxsbb.com/news/32866.html",
+      "title": "2025南京师范大学录取分数线（含2023-2024历年）2026-3-31",
+      "uniName": "南京师范大学"
+    },
+    "hunnu2": {
+      "url": "https://www.dxsbb.com/news/33547.html",
+      "title": "2025湖南师范大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "湖南师范大学"
+    },
+    "scnu2": {
+      "url": "https://www.dxsbb.com/news/33929.html",
+      "title": "2025华南师范大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "华南师范大学"
+    },
+    "upc": {
+      "url": "https://www.dxsbb.com/news/32971.html",
+      "title": "2025中国石油大学（华东）录取分数线（含2023-2024历年）2026-4-7",
+      "uniName": "中国石油大学（华东）"
+    },
+    "cup": {
+      "url": "https://www.dxsbb.com/news/32015.html",
+      "title": "2025中国石油大学（北京）录取分数线（含2023-2025历年）2026-3-18",
+      "uniName": "中国石油大学（北京）"
+    },
+    "qlu": {
+      "url": "https://www.dxsbb.com/news/33037.html",
+      "title": "2025齐鲁工业大学录取分数线（含2023-2024历年）2026-4-7",
+      "uniName": "齐鲁工业大学"
+    },
+    "nuc": {
+      "url": "https://www.dxsbb.com/news/32131.html",
+      "title": "2025中北大学录取分数线（含2023-2024历年）2026-3-19",
+      "uniName": "中北大学"
+    },
+    "xatu": {
+      "url": "https://www.dxsbb.com/news/33776.html",
+      "title": "2024西安工业大学录取分数线（含2022-2023历年）2025-4-28",
+      "uniName": "西安工业大学"
+    },
+    "jxust": {
+      "url": "https://www.dxsbb.com/news/32843.html",
+      "title": "2025江西理工大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "江西理工大学"
+    },
+    "cuit": {
+      "url": "https://www.dxsbb.com/news/33643.html",
+      "title": "2025成都信息工程大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "成都信息工程大学"
+    },
+    "hust2": {
+      "url": "https://www.dxsbb.com/news/32689.html",
+      "title": "2025哈尔滨理工大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "哈尔滨理工大学"
+    },
+    "hpu": {
+      "url": "https://www.dxsbb.com/news/33272.html",
+      "title": "2025河南理工大学录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "河南理工大学"
+    },
+    "wit": {
+      "url": "https://www.dxsbb.com/news/32995.html",
+      "title": "2025武汉工程大学录取分数线（含2023-2024历年）2026-6-11",
+      "uniName": "武汉工程大学"
+    },
+    "qdu": {
+      "url": "https://www.dxsbb.com/news/33190.html",
+      "title": "2025青岛大学录取分数线（含2023-2024历年）2026-4-7",
+      "uniName": "青岛大学"
+    },
+    "ujn": {
+      "url": "https://www.dxsbb.com/news/32977.html",
+      "title": "2025济南大学录取分数线（含2023-2025历年）2026-4-7",
+      "uniName": "济南大学"
+    },
+    "ytu": {
+      "url": "https://www.dxsbb.com/news/33192.html",
+      "title": "2025烟台大学录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "烟台大学"
+    },
+    "sdkd": {
+      "url": "https://www.dxsbb.com/news/32973.html",
+      "title": "2025山东科技大学录取分数线（含2023-2024历年）2026-4-7",
+      "uniName": "山东科技大学"
+    },
+    "lntu": {
+      "url": "https://www.dxsbb.com/news/32519.html",
+      "title": "2024辽宁工程技术大学录取分数线（含2022-2023历年）2025-4-24",
+      "uniName": "辽宁工程技术大学"
+    },
+    "hbu": {
+      "url": "https://www.dxsbb.com/news/32009.html",
+      "title": "2025河北大学录取分数线（含2023-2024历年）2026-3-18",
+      "uniName": "河北大学"
+    },
+    "hebust2": {
+      "url": "https://www.dxsbb.com/news/32047.html",
+      "title": "2025河北科技大学录取分数线（含2023-2024历年）2026-3-18",
+      "uniName": "河北科技大学"
+    },
+    "just": {
+      "url": "https://www.dxsbb.com/news/32804.html",
+      "title": "2025江苏科技大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "江苏科技大学"
+    },
+    "cczu": {
+      "url": "https://www.dxsbb.com/news/32807.html",
+      "title": "2025常州大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "常州大学"
+    },
+    "zstu": {
+      "url": "https://www.dxsbb.com/news/33143.html",
+      "title": "2025浙江理工大学录取分数线（含2023-2024历年）2026-3-31",
+      "uniName": "浙江理工大学"
+    },
+    "zjut": {
+      "url": "https://www.dxsbb.com/news/33096.html",
+      "title": "2025浙江工业大学录取分数线（含2023-2024历年）2026-5-20",
+      "uniName": "浙江工业大学"
+    },
+    "cjlu": {
+      "url": "https://www.dxsbb.com/news/33157.html",
+      "title": "2025中国计量大学录取分数线（含2023-2024历年）2026-4-1",
+      "uniName": "中国计量大学"
+    },
+    "hznu": {
+      "url": "https://www.dxsbb.com/news/33149.html",
+      "title": "2025杭州师范大学录取分数线（含2023-2024历年）2026-3-31",
+      "uniName": "杭州师范大学"
+    },
+    "nbu": {
+      "url": "https://www.dxsbb.com/news/33253.html",
+      "title": "2025宁波大学录取分数线（含2023-2024历年）2026-5-21",
+      "uniName": "宁波大学"
+    },
+    "aust": {
+      "url": "https://www.dxsbb.com/news/33367.html",
+      "title": "2025安徽理工大学录取分数线（含2023-2024历年）2026-5-27",
+      "uniName": "安徽理工大学"
+    },
+    "ahut": {
+      "url": "https://www.dxsbb.com/news/33366.html",
+      "title": "2025安徽工业大学录取分数线（含2023-2024历年）2026-5-27",
+      "uniName": "安徽工业大学"
+    },
+    "hqu": {
+      "url": "https://www.dxsbb.com/news/32642.html",
+      "title": "2025华侨大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "华侨大学"
+    },
+    "jxnu2": {
+      "url": "https://www.dxsbb.com/news/32848.html",
+      "title": "2025江西师范大学录取分数线（含2023-2024历年）2026-6-1",
+      "uniName": "江西师范大学"
+    },
+    "nchu2": {
+      "url": "https://www.dxsbb.com/news/32842.html",
+      "title": "2025南昌航空大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "南昌航空大学"
+    },
+    "haut": {
+      "url": "https://www.dxsbb.com/news/33275.html",
+      "title": "2025河南工业大学录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "河南工业大学"
+    },
+    "haust": {
+      "url": "https://www.dxsbb.com/news/33277.html",
+      "title": "2025河南科技大学录取分数线（含2023-2024历年）2026-6-4",
+      "uniName": "河南科技大学"
+    },
+    "htu": {
+      "url": "https://www.dxsbb.com/news/33319.html",
+      "title": "2025河南师范大学录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "河南师范大学"
+    },
+    "hubu": {
+      "url": "https://www.dxsbb.com/news/33017.html",
+      "title": "2025湖北大学录取分数线（含2023-2024历年）2026-4-9",
+      "uniName": "湖北大学"
+    },
+    "hbut2": {
+      "url": "https://www.dxsbb.com/news/33013.html",
+      "title": "2025湖北工业大学录取分数线（含2023-2024历年）2026-4-9",
+      "uniName": "湖北工业大学"
+    },
+    "csxy": {
+      "url": "https://www.dxsbb.com/news/33681.html",
+      "title": "2025长沙学院录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "长沙学院"
+    },
+    "gdou": {
+      "url": "https://www.dxsbb.com/news/33906.html",
+      "title": "2025广东海洋大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "广东海洋大学"
+    },
+    "wyu": {
+      "url": "https://www.dxsbb.com/news/33998.html",
+      "title": "2025五邑大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "五邑大学"
+    },
+    "fosu": {
+      "url": "https://www.dxsbb.com/news/34009.html",
+      "title": "2025佛山大学录取分数线（含2023-2024历年）2026-4-14",
+      "uniName": "佛山大学"
+    },
+    "dgut": {
+      "url": "https://www.dxsbb.com/news/34006.html",
+      "title": "2025东莞理工学院录取分数线（含2023-2024历年）2026-4-14",
+      "uniName": "东莞理工学院"
+    },
+    "gxu2": {
+      "url": "https://www.dxsbb.com/news/33064.html",
+      "title": "2025广西大学录取分数线（含2023-2024历年）2026-4-14",
+      "uniName": "广西大学"
+    },
+    "glut": {
+      "url": "https://www.dxsbb.com/news/33067.html",
+      "title": "2025桂林理工大学录取分数线（含2023-2024历年）2026-4-14",
+      "uniName": "桂林理工大学"
+    },
+    "cqjtu2": {
+      "url": "https://www.dxsbb.com/news/33448.html",
+      "title": "2025重庆交通大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "重庆交通大学"
+    },
+    "cqut": {
+      "url": "https://www.dxsbb.com/news/33519.html",
+      "title": "2025重庆理工大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "重庆理工大学"
+    },
+    "swpu": {
+      "url": "https://www.dxsbb.com/news/33639.html",
+      "title": "2025西南石油大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "西南石油大学"
+    },
+    "cdut": {
+      "url": "https://www.dxsbb.com/news/33640.html",
+      "title": "2024成都理工大学录取分数线（含2022-2023历年）2025-6-17",
+      "uniName": "成都理工大学"
+    },
+    "suse": {
+      "url": "https://www.dxsbb.com/news/33644.html",
+      "title": "2025四川轻化工大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "四川轻化工大学"
+    },
+    "gznu": {
+      "url": "https://www.dxsbb.com/news/33541.html",
+      "title": "2025贵州师范大学录取分数线（含2023-2024历年）2026-4-16",
+      "uniName": "贵州师范大学"
+    },
+    "ynnu": {
+      "url": "https://www.dxsbb.com/news/33699.html",
+      "title": "2024云南师范大学录取分数线（含2022-2023历年）2025-5-10",
+      "uniName": "云南师范大学"
+    },
+    "xauat": {
+      "url": "https://www.dxsbb.com/news/33777.html",
+      "title": "2024西安建筑科技大学录取分数线（含2022-2023历年）2025-6-24",
+      "uniName": "西安建筑科技大学"
+    },
+    "xust2": {
+      "url": "https://www.dxsbb.com/news/33778.html",
+      "title": "2024西安科技大学录取分数线（含2022-2023历年）2025-4-22",
+      "uniName": "西安科技大学"
+    },
+    "sust": {
+      "url": "https://www.dxsbb.com/news/33780.html",
+      "title": "2025陕西科技大学录取分数线（含2023-2024历年）2026-4-21",
+      "uniName": "陕西科技大学"
+    },
+    "lut": {
+      "url": "https://www.dxsbb.com/news/33488.html",
+      "title": "2025兰州理工大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "兰州理工大学"
+    },
+    "lzjtu": {
+      "url": "https://www.dxsbb.com/news/33490.html",
+      "title": "2024兰州交通大学录取分数线（含2022-2023历年）2025-5-10",
+      "uniName": "兰州交通大学"
+    },
+    "xju2": {
+      "url": "https://www.dxsbb.com/news/33650.html",
+      "title": "2025新疆大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "新疆大学"
+    },
+    "shzu": {
+      "url": "https://www.dxsbb.com/news/33654.html",
+      "title": "2024石河子大学录取分数线（含2022-2023历年）2025-5-13",
+      "uniName": "石河子大学"
+    },
+    "nxu2": {
+      "url": "https://www.dxsbb.com/news/33592.html",
+      "title": "2025宁夏大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "宁夏大学"
+    },
+    "qhu": {
+      "url": "https://www.dxsbb.com/news/33585.html",
+      "title": "2024青海大学录取分数线（含2022-2023历年）2025-4-29",
+      "uniName": "青海大学"
+    },
+    "tibetu2": {
+      "url": "https://www.dxsbb.com/news/33768.html",
+      "title": "2024西藏大学录取分数线（含2022-2023历年）2025-5-10",
+      "uniName": "西藏大学"
+    },
+    "hainanu2": {
+      "url": "https://www.dxsbb.com/news/33218.html",
+      "title": "2025海南大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "海南大学"
+    },
+    "imu": {
+      "url": "https://www.dxsbb.com/news/32438.html",
+      "title": "2025内蒙古大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "内蒙古大学"
+    },
+    "ybu": {
+      "url": "https://www.dxsbb.com/news/32400.html",
+      "title": "2025延边大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "延边大学"
+    },
+    "neepu": {
+      "url": "https://www.dxsbb.com/news/32402.html",
+      "title": "2025东北电力大学录取分数线（含2023-2024历年）2026-5-9",
+      "uniName": "东北电力大学"
+    },
+    "cust": {
+      "url": "https://www.dxsbb.com/news/32401.html",
+      "title": "2025长春理工大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "长春理工大学"
+    },
+    "jlau": {
+      "url": "https://www.dxsbb.com/news/32406.html",
+      "title": "2025吉林农业大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "吉林农业大学"
+    },
+    "hlju": {
+      "url": "https://www.dxsbb.com/news/32687.html",
+      "title": "2025黑龙江大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "黑龙江大学"
+    },
+    "nepu2": {
+      "url": "https://www.dxsbb.com/news/32734.html",
+      "title": "2025东北石油大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "东北石油大学"
+    },
+    "jmsu": {
+      "url": "https://www.dxsbb.com/news/32735.html",
+      "title": "2025佳木斯大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "佳木斯大学"
+    },
+    "njtech": {
+      "url": "https://www.dxsbb.com/news/32806.html",
+      "title": "2025南京工业大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "南京工业大学"
+    },
+    "ujs": {
+      "url": "https://www.dxsbb.com/news/32820.html",
+      "title": "2025江苏大学录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "江苏大学"
+    },
+    "ycit": {
+      "url": "https://www.dxsbb.com/news/32823.html",
+      "title": "2025盐城工学院录取分数线（含2023-2024历年）2026-5-15",
+      "uniName": "盐城工学院"
+    },
+    "hztc": {
+      "url": "https://www.dxsbb.com/news/33307.html",
+      "title": "2025湖州学院录取分数线（含2023-2024历年）2026-4-1",
+      "uniName": "湖州师范学院"
+    },
+    "usx": {
+      "url": "https://www.dxsbb.com/news/33151.html",
+      "title": "2025绍兴大学录取分数线（含2023-2024历年）2026-4-1",
+      "uniName": "绍兴文理学院"
+    },
+    "wku": {
+      "url": "https://www.dxsbb.com/news/33362.html",
+      "title": "2025温州肯恩大学录取分数线（含2023-2024年）2026-4-1",
+      "uniName": "温州肯恩大学"
+    },
+    "tlu": {
+      "url": "https://www.dxsbb.com/news/33479.html",
+      "title": "2025铜陵学院录取分数线（含2023-2024历年）2026-4-1",
+      "uniName": "铜陵学院"
+    },
+    "xmut": {
+      "url": "https://www.dxsbb.com/news/32659.html",
+      "title": "2025厦门理工学院录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "厦门理工学院"
+    },
+    "mnnu": {
+      "url": "https://www.dxsbb.com/news/32657.html",
+      "title": "2025闽南师范大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "闽南师范大学"
+    },
+    "gnnu": {
+      "url": "https://www.dxsbb.com/news/32851.html",
+      "title": "2025赣南师范大学录取分数线（含2023-2024历年）2026-4-2",
+      "uniName": "赣南师范大学"
+    },
+    "jxstnu": {
+      "url": "https://www.dxsbb.com/news/32889.html",
+      "title": "2025江西科技师范大学录取分数线（含2023-2024历年）2026-4-7",
+      "uniName": "江西科技师范大学"
+    },
+    "lyit": {
+      "url": "https://www.dxsbb.com/news/33385.html",
+      "title": "2025洛阳理工学院录取分数线（含2023-2024历年）2026-4-8",
+      "uniName": "洛阳理工学院"
+    },
+    "nyit": {
+      "url": "https://www.dxsbb.com/news/33390.html",
+      "title": "2025南阳理工学院录取分数线（含2023-2024历年）2026-4-9",
+      "uniName": "南阳理工学院"
+    },
+    "hbas": {
+      "url": "https://www.dxsbb.com/news/33104.html",
+      "title": "2025湖北文理学院录取分数线（含2023-2024历年）2026-4-9",
+      "uniName": "湖北文理学院"
+    },
+    "jsu": {
+      "url": "https://www.dxsbb.com/news/33489.html",
+      "title": "2025吉首大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "吉首大学"
+    },
+    "gpnu": {
+      "url": "https://www.dxsbb.com/news/33969.html",
+      "title": "2025广东技术师范大学录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "广东技术师范大学"
+    },
+    "zhku": {
+      "url": "https://www.dxsbb.com/news/33997.html",
+      "title": "2025仲恺农业工程学院录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "仲恺农业工程学院"
+    },
+    "zqu": {
+      "url": "https://www.dxsbb.com/news/33934.html",
+      "title": "2025肇庆学院录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "肇庆学院"
+    },
+    "hzu2": {
+      "url": "https://www.dxsbb.com/news/33931.html",
+      "title": "2025惠州学院录取分数线（含2023-2024历年）2026-4-10",
+      "uniName": "惠州学院"
+    },
+    "bbgu": {
+      "url": "https://www.dxsbb.com/news/33165.html",
+      "title": "2025北部湾大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "北部湾大学"
+    },
+    "cqwu": {
+      "url": "https://www.dxsbb.com/news/33454.html",
+      "title": "2025重庆文理学院录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "重庆文理学院"
+    },
+    "pzhu": {
+      "url": "https://www.dxsbb.com/news/33813.html",
+      "title": "2024攀枝花学院录取分数线（含2022-2023历年）2025-5-13",
+      "uniName": "攀枝花学院"
+    },
+    "xhu": {
+      "url": "https://www.dxsbb.com/news/33645.html",
+      "title": "2025西华大学录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "西华大学"
+    },
+    "swun": {
+      "url": "https://www.dxsbb.com/news/33800.html",
+      "title": "2025西南民族大学录取分数线（含2023-2024历年）2026-4-16",
+      "uniName": "西南民族大学"
+    },
+    "gzit": {
+      "url": "https://www.dxsbb.com/news/33691.html",
+      "title": "2025贵州理工学院录取分数线（含2023-2024历年）2026-4-16",
+      "uniName": "贵州理工学院"
+    },
+    "daliux": {
+      "url": "https://www.dxsbb.com/news/33697.html",
+      "title": "2025大理大学录取分数线（含2023-2025历年）2026-4-21",
+      "uniName": "大理大学"
+    },
+    "xpu": {
+      "url": "https://www.dxsbb.com/news/33820.html",
+      "title": "2024西安工程大学录取分数线（含2022-2023历年）2025-6-9",
+      "uniName": "西安工程大学"
+    },
+    "xawl": {
+      "url": "https://www.dxsbb.com/news/33842.html",
+      "title": "2025西安文理学院录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "西安文理学院"
+    },
+    "tsnc": {
+      "url": "https://www.dxsbb.com/news/33502.html",
+      "title": "2025天水师范大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "天水师范学院"
+    },
+    "ksu": {
+      "url": "https://www.dxsbb.com/news/33657.html",
+      "title": "2025喀什大学录取分数线（含2023-2024历年）2026-4-22",
+      "uniName": "喀什大学"
+    },
+    "hntou": {
+      "url": "https://www.dxsbb.com/news/33219.html",
+      "title": "2025海南热带海洋学院录取分数线（含2023-2024历年）2026-4-15",
+      "uniName": "海南热带海洋学院"
+    },
+    "imut": {
+      "url": "https://www.dxsbb.com/news/45603.html",
+      "title": "2025内蒙古工业大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "内蒙古工业大学"
+    },
+    "imau": {
+      "url": "https://www.dxsbb.com/news/32311.html",
+      "title": "2025内蒙古农业大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "内蒙古农业大学"
+    },
+    "tiangong": {
+      "url": "https://www.dxsbb.com/news/31779.html",
+      "title": "2025天津工业大学录取分数线（含2023-2024历年）2026-3-18",
+      "uniName": "天津工业大学"
+    },
+    "tust": {
+      "url": "https://www.dxsbb.com/news/31778.html",
+      "title": "2024天津科技大学录取分数线（含2022-2023历年）2025-6-11",
+      "uniName": "天津科技大学"
+    },
+    "cauc": {
+      "url": "https://www.dxsbb.com/news/31780.html",
+      "title": "2025中国民航大学录取分数线（含2023-2024历年）2026-3-18",
+      "uniName": "中国民航大学"
+    },
+    "hebeiu": {
+      "url": "https://www.dxsbb.com/news/32021.html",
+      "title": "2025河北工程大学录取分数线（含2023-2024历年）2026-3-18",
+      "uniName": "河北工程大学"
+    },
+    "ncst": {
+      "url": "https://www.dxsbb.com/news/85165.html",
+      "title": "2024华北理工大学录取分数线（含2022-2023历年）2025-4-23",
+      "uniName": "华北理工大学"
+    },
+    "sut": {
+      "url": "https://www.dxsbb.com/news/32447.html",
+      "title": "2025沈阳工业大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "沈阳工业大学"
+    },
+    "sau": {
+      "url": "https://www.dxsbb.com/news/32448.html",
+      "title": "2025沈阳航空航天大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "沈阳航空航天大学"
+    },
+    "lnpu": {
+      "url": "https://www.dxsbb.com/news/32520.html",
+      "title": "2025辽宁石油化工大学录取分数线（含2023-2024历年）2026-3-23",
+      "uniName": "辽宁石油化工大学"
+    },
+    "slu": {
+      "url": "https://www.dxsbb.com/news/32507.html",
+      "title": "2025沈阳理工大学录取分数线（含2023-2024历年）2026-3-20",
+      "uniName": "沈阳理工大学"
+    },
+    "djtu": {
+      "url": "https://www.dxsbb.com/news/32522.html",
+      "title": "2024大连交通大学录取分数线（含2022-2023历年）2025-6-6",
+      "uniName": "大连交通大学"
+    },
+    "bhu": {
+      "url": "https://www.dxsbb.com/news/45736.html",
+      "title": "2025渤海大学录取分数线（含2023-2024历年）2026-3-23",
+      "uniName": "渤海大学"
+    },
+    "ccut": {
+      "url": "https://www.dxsbb.com/news/32403.html",
+      "title": "2025长春工业大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "长春工业大学"
+    },
+    "ccit": {
+      "url": "https://www.dxsbb.com/news/32565.html",
+      "title": "2025长春工程学院录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "长春工程学院"
+    },
+    "neau": {
+      "url": "https://www.dxsbb.com/news/32737.html",
+      "title": "2025东北农业大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "东北农业大学"
+    },
+    "usth": {
+      "url": "https://www.dxsbb.com/news/32733.html",
+      "title": "2025黑龙江科技大学录取分数线（含2023-2024历年）2026-3-24",
+      "uniName": "黑龙江科技大学"
+    },
+    "hljit": {
+      "url": "https://www.dxsbb.com/news/32934.html",
+      "title": "2025黑龙江工程学院录取分数线（含2023-2024历年）2026-3-26",
+      "uniName": "黑龙江工程学院"
+    }
+  },
+  "unmatched": [
+    "福建工程学院"
+  ],
+  "totalMatched": 253,
+  "totalUnis": 254
+}
