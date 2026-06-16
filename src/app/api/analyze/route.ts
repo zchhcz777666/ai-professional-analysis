@@ -37,8 +37,8 @@ export async function POST(request: NextRequest) {
   // 构建分析 prompt
   const prompt = buildAnalysisPrompt(university, scoreRecords, province, category, score, rank, preferences)
 
-  // 调用 GLM API（流式）
-  const apiKey = process.env.GLM_API_KEY
+  // 调用 DeepSeek API（流式）
+  const apiKey = process.env.DEEPSEEK_API_KEY
   if (!apiKey) {
     // 如果没有配置 API Key，返回基于数据的分析（不调 LLM，直接流式输出）
     const fallbackContent = generateFallbackContent(university, scoreRecords, score, rank)
@@ -65,14 +65,14 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
+    const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        model: 'glm-4-flash',
+        model: 'deepseek-chat',
         messages: [
           {
             role: 'system',
@@ -91,7 +91,7 @@ export async function POST(request: NextRequest) {
 
     if (!response.ok) {
       const errorText = await response.text()
-      console.error('GLM API error:', errorText)
+      console.error('DeepSeek API error:', errorText)
       return new Response(JSON.stringify({ error: 'AI分析服务暂时不可用' }), {
         status: 500,
         headers: { 'Content-Type': 'application/json' },

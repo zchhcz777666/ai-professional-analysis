@@ -14,6 +14,9 @@ node_modules/
 
 # 日志
 *.log
+
+# gaokao-vault (Python 爬虫项目)
+/gaokao-vault/
 *_log.txt
 *_log2.txt
 
