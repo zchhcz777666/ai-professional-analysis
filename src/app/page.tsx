@@ -1,13 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { UserInput, MatchResult } from '@/types'
-import { getAvailableProvinces } from '@/data/scores'
 import { matchUniversities } from '@/lib/matching'
 import ResultPage from '@/components/ResultPage'
 import AccessGate from '@/components/AccessGate'
-
-const provinces = getAvailableProvinces()
 
 const allCategories = ['理科', '物理类', '综合']
 
@@ -29,6 +26,16 @@ export default function Home() {
   const [step, setStep] = useState<'input' | 'result'>('input')
   const [results, setResults] = useState<MatchResult[]>([])
   const [userInput, setUserInput] = useState<UserInput | null>(null)
+  const [provinces, setProvinces] = useState<string[]>([])
+  const [matching, setMatching] = useState(false)
+
+  // 从 API 获取省份列表（避免打包 6.9MB 数据到客户端）
+  useEffect(() => {
+    fetch('/api/scores?type=provinces')
+      .then(res => res.json())
+      .then(data => setProvinces(data))
+      .catch(() => setProvinces([]))
+  }, [])
 
   const [province, setProvince] = useState('')
   const [category, setCategory] = useState('理科')
@@ -37,9 +44,10 @@ export default function Home() {
   const [selectedFocus, setSelectedFocus] = useState<string[]>([])
   const [priorityOrder, setPriorityOrder] = useState<string[]>(['就业'])
 
-  const handleMatch = () => {
+  const handleMatch = async () => {
     if (!province || !score) return
 
+    setMatching(true)
     const input: UserInput = {
       province,
       category: category as UserInput['category'],
@@ -51,10 +59,11 @@ export default function Home() {
       }
     }
 
-    const matchResults = matchUniversities(input)
+    const matchResults = await matchUniversities(input)
     setResults(matchResults)
     setUserInput(input)
     setStep('result')
+    setMatching(false)
   }
 
   const handleBack = () => {
@@ -218,14 +227,14 @@ export default function Home() {
           {/* 提交按钮 */}
           <button
             onClick={handleMatch}
-            disabled={!province || !score}
+            disabled={!province || !score || matching}
             className={`w-full py-3 rounded-xl text-white font-semibold text-lg transition-all ${
-              province && score
+              province && score && !matching
                 ? 'bg-blue-600 hover:bg-blue-700 active:scale-[0.98] shadow-lg shadow-blue-200'
                 : 'bg-slate-300 cursor-not-allowed'
             }`}
           >
-            开始匹配
+            {matching ? '匹配中...' : '开始匹配'}
           </button>
 
           <p className="text-center text-xs text-slate-400 mt-3">

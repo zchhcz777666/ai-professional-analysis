@@ -1,6 +1,5 @@
 import { UserInput, MatchResult, ScoreRecord } from '@/types'
 import { universities } from '@/data/universities'
-import { getScoreRecords, getScoreRecordsByProvince } from '@/data/scores'
 
 /**
  * 冲稳保匹配算法
@@ -17,11 +16,20 @@ import { getScoreRecords, getScoreRecordsByProvince } from '@/data/scores'
 // 学生位次 < 学校最低位次 → rankDiffRatio < 0 → 学生更优秀 → 保/稳
 // 学生位次 > 学校最低位次 → rankDiffRatio > 0 → 学生不如学校最低 → 冲
 
-export function matchUniversities(input: UserInput): MatchResult[] {
+export async function matchUniversities(input: UserInput): Promise<MatchResult[]> {
   const { province, category, score, rank, preferences } = input
 
-  // 获取该省份所有有分数线的学校
-  const provinceScores = getScoreRecordsByProvince(province)
+  // 从 API 获取该省份的分数线数据（不打包 6.9MB 到客户端）
+  let provinceScores: ScoreRecord[] = []
+  try {
+    const res = await fetch(`/api/scores?type=province-scores&province=${encodeURIComponent(province)}`)
+    if (res.ok) {
+      provinceScores = await res.json()
+    }
+  } catch (e) {
+    console.error('Failed to fetch scores:', e)
+    return []
+  }
 
   // 科类等价映射：理科≈物理类，文科≈历史类
   const equivalentCategories: Record<string, string[]> = {
