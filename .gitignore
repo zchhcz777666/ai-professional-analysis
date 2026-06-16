@@ -1,0 +1,93 @@
+# TRAE
+.trae/
+
+# Next.js
+.next/
+out/
+
+# 依赖
+node_modules/
+
+# 环境变量
+.env.local
+.env*.local
+
+# 日志
+*.log
+*_log.txt
+*_log2.txt
+
+# 输出
+*_output.txt
+*_output2.txt
+*_out.txt
+*_out.json
+*_result.txt
+*_result.json
+*_err.txt
+*_error.txt
+*_debug*.txt
+*_debug*.json
+
+# 运行残留
+*_stderr.txt
+*_stdout.txt
+run_*.txt
+ps_run_*.txt
+py_*.txt
+python_*.txt
+processing_log*.txt
+v*_stderr.txt
+v*_stdout.txt
+
+# 安装日志
+pip_*.txt
+install_*.txt
+
+# 测试文件
+test*.txt
+*_test.txt
+simple_test.txt
+date_test.txt
+direct_test.txt
+format_check.txt
+
+# 信息/状态
+file_list.txt
+env_report.txt
+sandbox_info.txt
+git_status.txt
+repo_status.txt
+existing_pages.txt
+pages_log.txt
+push_result.txt
+upload_log.txt
+download_result.txt
+
+# 中间数据
+data_2021.json
+data_2025.json
+all_major_data.json
+major_counts_result.json
+verify_results.txt
+headers_*.txt
+xls_debug*.txt
+xls_debug*.json
+
+# 生成的页面
+专业分析-*.html
+专业目录2024.html
+xlrd_page.html
+
+# 生成的JSON
+专业统计结果.json
+专业统计结果_2021_2025.json
+
+# 奇怪残留
+ersAdministrator*
+# 漏网之鱼
+check_error2.txt
+check_output.txt.err
+pdf_text.txt
+xlrd_install2.txt
+*_stats.txt
