@@ -1,0 +1,101 @@
+{
+  "GET https://static-data.gaokao.cn/www/2.0/config/81007.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/config/81007.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 745,
+    "summary": "Object{31}",
+    "foundOn": "gaokao.cn homepage",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/index/school_heat.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/index/school_heat.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 2677,
+    "summary": "Object{2}",
+    "foundOn": "gaokao.cn homepage",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/info/linkage.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/info/linkage.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 170938,
+    "summary": "Object{2}",
+    "foundOn": "school/111(浙大)/score",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/international/project/school_project_v3.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/international/project/school_project_v3.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 5994,
+    "summary": "Array[48]",
+    "foundOn": "school/111(浙大)/score",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/qiangji/school/111/info.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/111/info.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 8618,
+    "summary": "Object{4}",
+    "foundOn": "school/111(浙大)/score",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/qiangji/school/140/info.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/140/info.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 10199,
+    "summary": "Object{4}",
+    "foundOn": "school/140/major",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/school/111/info.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/school/111/info.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 15764,
+    "summary": "Object{131}",
+    "foundOn": "school/111(浙大)/score",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/school/140/info.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/school/140/info.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 16402,
+    "summary": "Object{131}",
+    "foundOn": "school/140/major",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/school/list_v2.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/school/list_v2.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 496339,
+    "summary": "Object{2993}",
+    "foundOn": "school/111(浙大)/score",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/school/school_code.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/school/school_code.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 152419,
+    "summary": "Object{2995}",
+    "foundOn": "school/111(浙大)/score",
+    "code": "0000"
+  },
+  "GET https://static-data.gaokao.cn/www/2.0/single/config/province.json?a=www.gaokao.cn": {
+    "method": "GET",
+    "url": "https://static-data.gaokao.cn/www/2.0/single/config/province.json?a=www.gaokao.cn",
+    "status": 200,
+    "size": 8777,
+    "summary": "Object{31}",
+    "foundOn": "school/111(浙大)/score",
+    "code": "0000"
+  }
+}
