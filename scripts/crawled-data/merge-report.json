@@ -1,0 +1,53 @@
+{
+  "mergedAt": "2026-06-17T04:38:42.590Z",
+  "beforeMerge": {
+    "total": 39970,
+    "sources": {
+      "generated": 39339,
+      "eol:河北考试院": 209,
+      "eol:山东考试院": 210,
+      "eol:浙江考试院": 212
+    }
+  },
+  "afterMerge": {
+    "total": 40039,
+    "sources": {
+      "eol-api:安徽考试院": 3,
+      "generated": 39274,
+      "eol:河北考试院": 209,
+      "eol:山东考试院": 207,
+      "eol:浙江考试院": 208,
+      "eol-api:北京考试院": 10,
+      "eol-api:广东考试院": 15,
+      "eol-api:湖北考试院": 10,
+      "eol-api:陕西考试院": 14,
+      "eol-api:浙江考试院": 4,
+      "eol-api:重庆考试院": 8,
+      "eol-api:湖南考试院": 8,
+      "eol-api:山东考试院": 3,
+      "eol-api:辽宁考试院": 1,
+      "eol-api:上海考试院": 5,
+      "eol-api:福建考试院": 6,
+      "eol-api:贵州考试院": 4,
+      "eol-api:黑龙江考试院": 4,
+      "eol-api:内蒙古考试院": 4,
+      "eol-api:吉林考试院": 2,
+      "eol-api:甘肃考试院": 2,
+      "eol-api:天津考试院": 2,
+      "eol-api:江苏考试院": 18,
+      "eol-api:山西考试院": 2,
+      "eol-api:四川考试院": 10,
+      "eol-api:新疆考试院": 2,
+      "eol-api:云南考试院": 2,
+      "eol-api:河南考试院": 2
+    }
+  },
+  "changes": {
+    "replaced": 588,
+    "added": 69
+  },
+  "files": {
+    "scores": "C:\\Users\\Administrator\\Documents\\trae_projects\\ai-professional-analysis\\src\\data\\scores.json",
+    "report": "C:\\Users\\Administrator\\Documents\\trae_projects\\ai-professional-analysis\\scripts\\crawled-data\\merge-report.json"
+  }
+}

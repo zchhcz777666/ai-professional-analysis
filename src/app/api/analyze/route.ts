@@ -34,9 +34,6 @@ export async function POST(request: NextRequest) {
 
   const scoreRecords = getScoreRecords(universityId, province)
 
-  // 构建分析 prompt
-  const prompt = buildAnalysisPrompt(university, scoreRecords, province, category, score, rank, preferences)
-
   // 调用 DeepSeek API（流式）
   const apiKey = process.env.DEEPSEEK_API_KEY
   if (!apiKey) {
@@ -63,6 +60,9 @@ export async function POST(request: NextRequest) {
       },
     })
   }
+
+  // 构建分析 prompt（仅在调用 LLM 时使用）
+  const prompt = buildAnalysisPrompt(university, scoreRecords, province, category, score, rank, preferences)
 
   try {
     const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
@@ -178,7 +178,7 @@ function buildAnalysisPrompt(
 ): string {
   const scoreDataStr = scoreRecords.length > 0
     ? scoreRecords.map(r =>
-        `${r.year}年：最低分${r.minScore}，平均分${r.avgScore}，最低位次${r.minRank.toLocaleString()}，平均位次${r.avgRank.toLocaleString()}，招生${r.enrollment}人`
+        `${r.year}年：最低分${r.minScore}，平均分${r.avgScore}，最低位次${(r.minRank || 0).toLocaleString()}，平均位次${(r.avgRank || 0).toLocaleString()}，招生${r.enrollment}人`
       ).join('\n')
     : '暂无该省份录取数据'
 
@@ -230,7 +230,7 @@ function generateFallbackContent(
   const studentRank = rank || 5000
   const latestRecord = scoreRecords[0]
   const avgMinRank = scoreRecords.length > 0
-    ? Math.round(scoreRecords.reduce((sum, r) => sum + r.minRank, 0) / scoreRecords.length)
+    ? Math.round(scoreRecords.reduce((sum, r) => sum + (r.minRank || 0), 0) / scoreRecords.length)
     : 0
 
   let tierAnalysis = ''
@@ -249,7 +249,7 @@ function generateFallbackContent(
 
 一、录取概率分析
 ${tierAnalysis}
-${latestRecord ? `参考${latestRecord.year}年数据：最低分${latestRecord.minScore}，最低位次${latestRecord.minRank.toLocaleString()}。` : '暂无该省录取数据参考。'}
+${latestRecord ? `参考${latestRecord.year}年数据：最低分${latestRecord.minScore}，最低位次${(latestRecord.minRank || 0).toLocaleString()}。` : '暂无该省录取数据参考。'}
 
 二、专业实力评估
 - 学校层次：${university.level.join('、')}
@@ -272,19 +272,13 @@ ${university.subjectRating.startsWith('A') ? '该校AI专业实力强劲，' : '
 
 // 额度扣减
 async function deductCall(accessCode: string): Promise<{ success: boolean; error?: string }> {
-  const kv = await (async () => {
-    try {
-      const mod = await import('@vercel/kv')
-      if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-        return mod.kv
-      }
-      return null
-    } catch {
-      return null
-    }
-  })()
+  // 开发环境：不验证额度
+  if (process.env.NODE_ENV === 'development') {
+    return { success: true }
+  }
 
-  if (kv) {
+  try {
+    const { kv } = await import('@vercel/kv')
     const data = await kv.get<{ callsUsed: number; callsLimit: number; isActive: boolean }>(`code:${accessCode}`)
     if (!data || !data.isActive) {
       return { success: false, error: '访问码无效' }
@@ -297,8 +291,7 @@ async function deductCall(accessCode: string): Promise<{ success: boolean; error
       callsUsed: data.callsUsed + 1,
     })
     return { success: true }
-  } else {
-    // 开发环境内存存储 - 不做严格验证
+  } catch {
     return { success: true }
   }
 }
