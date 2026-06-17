@@ -1,0 +1,194 @@
+[
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/schinfo/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 341,
+    "status": 200,
+    "label": "北大-北京-2025",
+    "body": "{\"msg\":{\"qjjh\":false,\"followCount\":24398,\"dh\":\"010-62770334、62782051\",\"hasZb\":false,\"zswz\":\"https://www.join-tsinghua.edu.cn/\",\"zgbmmc\":\"教育部\",\"syl\":true,\"schInfoId\":\"99617189\",\"txdz\":\"北京市海淀区清华大学\",\"yxmc\":\"清华大学\",\"yjsy\":true,\"schid\":\"3\",\"yxdm\":\"10003\",\"xxwz\":\"https://www.tsinghua.edu.cn/\",\"hasZsjh\":true,\"gxzx\":false,\"yxszd\":\"北京\"},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/yxmydinfo/99617189",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 735,
+    "status": 200,
+    "label": "北大-北京-2025",
+    "body": "{\"msg\":{\"overall\":{\"type\":\"2\",\"totalCount\":1925,\"star1Count\":98,\"star2Count\":20,\"star3Count\":50,\"star4Count\":162,\"star5Count\":1595,\"avgRank\":4.6,\"star1AvgRank\":\"5%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"3%\",\"star4AvgRank\":\"8%\",\"star5AvgRank\":\"83%\"},\"life\":{\"type\":\"1\",\"totalCount\":1890,\"star1Count\":90,\"star2Count\":13,\"star3Count\":46,\"star4Count\":130,\"star5Count\":1611,\"avgRank\":4.7,\"star1AvgRank\":\"5%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"2%\",\"star4AvgRank\":\"7%\",\"star5AvgRank\":\"85%\"},\"environ\":{\"type\":\"0\",\"totalCount\":2152,\"star1Count\":124,\"star2Count\":14,\"star3Count\":32,\"star4Count\":89,\"star5Count\":1893,\"avgRank\":4.7,\"star1AvgRank\":\"6%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"1%\",\"star4AvgRank\":\"4%\",\"star5AvgRank\":\"88%\"}},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/gdwz/detail/10003",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 644,
+    "status": 200,
+    "label": "北大-北京-2025",
+    "body": "{\"msg\":{\"orgCode\":\"10003\",\"orgName\":\"清华大学\",\"ssmc\":null,\"xxwz\":\"https://www.tsinghua.edu.cn/\",\"zswz\":\"https://www.join-tsinghua.edu.cn/\",\"dh\":\"010-62770334、62782051\",\"wxmc\":\"清华招生\",\"wxh\":\"tsingerhua\",\"wxEwmLobId\":\"n2qjhwzp727rmg27\",\"wxEwmFileName\":\"微信图片_20250707112956_11_468.jpg\",\"wbmc\":null,\"wbwz\":null,\"wbEwmLobId\":null,\"wbEwmFileName\":null,\"bjhmc\":null,\"bjhIdh\":null,\"xhFileName\":null,\"xhlobId\":null,\"zbgwmc\":null,\"zbgwdz\":null,\"zyckxtmc\":null,\"zyckxtwz\":null,\"zyckxtsm\":null,\"sphList\":[{\"ptmc\":\"微信视频号\",\"mc\":\"清华大学\",\"ptId\":\"sphquj0W0mNhokG\"}],\"hasInfo\":true,\"hasZb\":false,\"year\":null,\"forumid\":null,\"checkYxxx\":null,\"xcspList\":[]},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/zyk/pub/appraisalinfo/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 2577,
+    "status": 200,
+    "label": "北大-北京-2025",
+    "body": "{\"msg\":{\"schappraisalinfo\":[{\"type\":\"综合\",\"avgRank\":4.6,\"count\":1925},{\"type\":\"院校\",\"avgRank\":4.7,\"count\":2151},{\"type\":\"生活\",\"avgRank\":4.7,\"count\":1890}],\"zytjcountinfo\":[{\"zymc\":\"经济与金融\",\"avgRank\":4.6,\"count\":275,\"hasInfo\":true,\"specId\":\"73381143\"},{\"zymc\":\"计算机科学与技术\",\"avgRank\":4.8,\"count\":237,\"hasInfo\":true,\"specId\":\"73384336\"},{\"zymc\":\"数理基础科学\",\"avgRank\":4.3,\"count\":127,\"hasInfo\":true,\"specId\":\"73383783\"},{\"zymc\":\"自动化\",\"avgRank\":4.5,\"count\":123,\"hasInfo\":true,\"specId\":\"73384324\"},{\"zymc\":\"电气工程及其自动化\",\"avgRank\":4.4,\"count\":120,\"hasInfo\":true,\"specId\":\"73384320\"},{\"zymc\":\"电子信息科学与技术\",\"avgRank\":4.7,\"count\":79,\"hasInfo\":false,\"specId\":\"73384004\"},{\"zymc\":\"法学\",\"avgRank\":4.7,\"count\":75,\"hasInfo\":true,\"specId\":\"73381155\"},{\"zymc\":\"建筑学\",\"avgRank\":4.3,\"count\":68,\"hasInfo\":true,\"specId\":\"73384460\"},{\"zymc\":\"电子信息类\",\"avgRank\":4.4,\"count\":59,\"hasInfo\":true,\"specId\":\"437279026\"},{\"zymc\":\"经济学\",\"avgRank\":4.2,\"count\":56,\"hasInfo\":false,\"specId\":\"73381079\"}],\"schDicId\":\"73394526\",\"zytjzsinfo\":[{\"zymc\":\"信息与计"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/zbzrft?yxmc=%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 365,
+    "status": 200,
+    "label": "北大-北京-2025",
+    "body": "{\"msg\":{\"news\":[{\"title\":\"清华大学：统招专业类中专业方向有调整，新增计算机与金融双学士学位招生\",\"htmlTitle\":\"清华大学：统招专业类中专业方向有调整，新增计算机与金融双学士学位招生\",\"displayDate\":\"2020-07-28\",\"summary\":\"2020年，清华大学共有16个招生大类面向高考统招招生，包括建筑类、土木类、环境化工与新材料类、电子信息类、自动化类等。由于强基计划的推出，各招生专业类所包含的专业方向及规模略有调整。今年学校还新增设了计算机与金融双学士学位项目。\",\"url\":\"/gkxx/zbzrft/zx/202007/20200728/1950328771.html\",\"imageUrl\":null,\"top\":false}]},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/questions/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 1295,
+    "status": 200,
+    "label": "北大-北京-2025",
+    "body": "{\"msg\":{\"year\":2026,\"questions\":[{\"title\":\"志愿填报\",\"userName\":\"18***48\",\"ssmc\":\"广西\",\"createdTime\":\"2025-06-28 16:43\",\"content\":\"老师您好，分数可能不够，如果提前批只报了贵校会被滑档还是退档？\",\"questionId\":\"6798265058\",\"replyContent\":\"<p>如果分数低于提前批计划数范围内报考考生的高考成绩，则会被退档处理。</p>\"},{\"title\":\"关于自强计划的问题\",\"userName\":\"ch***hpqntays9u2el1k7\",\"ssmc\":\"广西\",\"createdTime\":\"2025-06-28 15:46\",\"content\":\"我已在今年4月20日之前完成贵校高校专项计划志愿报名，且显示审核通过，现高考成绩已出，我需要再到考试院填报特殊批次?或者只需等待录取结果?\",\"questionId\":\"6798152643\",\"replyContent\":\"<p>需要在高考志愿填报系统中进行志愿填报，根据报考考生的高考成绩按计划录取。</p>\"},{\"title\":\"700分能上吗\",\"userName\":\"ch***0klfs877krim9q1n\",\"ssmc\":\"广东\",\"createdTime\":\"2025-06-28 15:38\",\"content\":\"700分能上吗？\",\"questionId\":\"6798142278\",\"replyContent\":\"<p>我校根据招生计划数按照高考成绩进行录取，欢迎报考我校。</p>\"},{\"title\":\"清华大学核动力定向招生\",\"userName\":\"ch***snvmsjeqpjcvnqbk\",\"ssmc\":\"贵州\",\"createdTime\":\"2025-06-28 12:16\",\"content\":\"清华大学核动力定向招生可以继续深造吗？可以继续考研读博吗？\",\"questionId\":\"6797817232\",\"replyContent\":\"<p>我校公布的招生简章中有相关培养单位的联系方式，可以电话咨询010-62783493。</p>\"},{\"title\":\"报考\",\"userName\":\"ch***ugql03p8gzgfbrr6"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/gdwz/detail/10003",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 644,
+    "status": 200,
+    "label": "北大-北京-2024",
+    "body": "{\"msg\":{\"orgCode\":\"10003\",\"orgName\":\"清华大学\",\"ssmc\":null,\"xxwz\":\"https://www.tsinghua.edu.cn/\",\"zswz\":\"https://www.join-tsinghua.edu.cn/\",\"dh\":\"010-62770334、62782051\",\"wxmc\":\"清华招生\",\"wxh\":\"tsingerhua\",\"wxEwmLobId\":\"n2qjhwzp727rmg27\",\"wxEwmFileName\":\"微信图片_20250707112956_11_468.jpg\",\"wbmc\":null,\"wbwz\":null,\"wbEwmLobId\":null,\"wbEwmFileName\":null,\"bjhmc\":null,\"bjhIdh\":null,\"xhFileName\":null,\"xhlobId\":null,\"zbgwmc\":null,\"zbgwdz\":null,\"zyckxtmc\":null,\"zyckxtwz\":null,\"zyckxtsm\":null,\"sphList\":[{\"ptmc\":\"微信视频号\",\"mc\":\"清华大学\",\"ptId\":\"sphquj0W0mNhokG\"}],\"hasInfo\":true,\"hasZb\":false,\"year\":null,\"forumid\":null,\"checkYxxx\":null,\"xcspList\":[]},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/zyk/pub/appraisalinfo/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 2577,
+    "status": 200,
+    "label": "北大-北京-2024",
+    "body": "{\"msg\":{\"schappraisalinfo\":[{\"type\":\"综合\",\"avgRank\":4.6,\"count\":1925},{\"type\":\"院校\",\"avgRank\":4.7,\"count\":2151},{\"type\":\"生活\",\"avgRank\":4.7,\"count\":1890}],\"zytjcountinfo\":[{\"zymc\":\"经济与金融\",\"avgRank\":4.6,\"count\":275,\"hasInfo\":true,\"specId\":\"73381143\"},{\"zymc\":\"计算机科学与技术\",\"avgRank\":4.8,\"count\":237,\"hasInfo\":true,\"specId\":\"73384336\"},{\"zymc\":\"数理基础科学\",\"avgRank\":4.3,\"count\":127,\"hasInfo\":true,\"specId\":\"73383783\"},{\"zymc\":\"自动化\",\"avgRank\":4.5,\"count\":123,\"hasInfo\":true,\"specId\":\"73384324\"},{\"zymc\":\"电气工程及其自动化\",\"avgRank\":4.4,\"count\":120,\"hasInfo\":true,\"specId\":\"73384320\"},{\"zymc\":\"电子信息科学与技术\",\"avgRank\":4.7,\"count\":79,\"hasInfo\":false,\"specId\":\"73384004\"},{\"zymc\":\"法学\",\"avgRank\":4.7,\"count\":75,\"hasInfo\":true,\"specId\":\"73381155\"},{\"zymc\":\"建筑学\",\"avgRank\":4.3,\"count\":68,\"hasInfo\":true,\"specId\":\"73384460\"},{\"zymc\":\"电子信息类\",\"avgRank\":4.4,\"count\":59,\"hasInfo\":true,\"specId\":\"437279026\"},{\"zymc\":\"经济学\",\"avgRank\":4.2,\"count\":56,\"hasInfo\":false,\"specId\":\"73381079\"}],\"schDicId\":\"73394526\",\"zytjzsinfo\":[{\"zymc\":\"信息与计"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/schinfo/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 341,
+    "status": 200,
+    "label": "北大-北京-2024",
+    "body": "{\"msg\":{\"qjjh\":false,\"followCount\":24398,\"dh\":\"010-62770334、62782051\",\"hasZb\":false,\"zswz\":\"https://www.join-tsinghua.edu.cn/\",\"zgbmmc\":\"教育部\",\"syl\":true,\"schInfoId\":\"99617189\",\"txdz\":\"北京市海淀区清华大学\",\"yxmc\":\"清华大学\",\"yjsy\":true,\"schid\":\"3\",\"yxdm\":\"10003\",\"xxwz\":\"https://www.tsinghua.edu.cn/\",\"hasZsjh\":true,\"gxzx\":false,\"yxszd\":\"北京\"},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/questions/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 1295,
+    "status": 200,
+    "label": "北大-北京-2024",
+    "body": "{\"msg\":{\"year\":2026,\"questions\":[{\"title\":\"志愿填报\",\"userName\":\"18***48\",\"ssmc\":\"广西\",\"createdTime\":\"2025-06-28 16:43\",\"content\":\"老师您好，分数可能不够，如果提前批只报了贵校会被滑档还是退档？\",\"questionId\":\"6798265058\",\"replyContent\":\"<p>如果分数低于提前批计划数范围内报考考生的高考成绩，则会被退档处理。</p>\"},{\"title\":\"关于自强计划的问题\",\"userName\":\"ch***hpqntays9u2el1k7\",\"ssmc\":\"广西\",\"createdTime\":\"2025-06-28 15:46\",\"content\":\"我已在今年4月20日之前完成贵校高校专项计划志愿报名，且显示审核通过，现高考成绩已出，我需要再到考试院填报特殊批次?或者只需等待录取结果?\",\"questionId\":\"6798152643\",\"replyContent\":\"<p>需要在高考志愿填报系统中进行志愿填报，根据报考考生的高考成绩按计划录取。</p>\"},{\"title\":\"700分能上吗\",\"userName\":\"ch***0klfs877krim9q1n\",\"ssmc\":\"广东\",\"createdTime\":\"2025-06-28 15:38\",\"content\":\"700分能上吗？\",\"questionId\":\"6798142278\",\"replyContent\":\"<p>我校根据招生计划数按照高考成绩进行录取，欢迎报考我校。</p>\"},{\"title\":\"清华大学核动力定向招生\",\"userName\":\"ch***snvmsjeqpjcvnqbk\",\"ssmc\":\"贵州\",\"createdTime\":\"2025-06-28 12:16\",\"content\":\"清华大学核动力定向招生可以继续深造吗？可以继续考研读博吗？\",\"questionId\":\"6797817232\",\"replyContent\":\"<p>我校公布的招生简章中有相关培养单位的联系方式，可以电话咨询010-62783493。</p>\"},{\"title\":\"报考\",\"userName\":\"ch***ugql03p8gzgfbrr6"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/yxmydinfo/99617189",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 735,
+    "status": 200,
+    "label": "北大-北京-2024",
+    "body": "{\"msg\":{\"overall\":{\"type\":\"2\",\"totalCount\":1925,\"star1Count\":98,\"star2Count\":20,\"star3Count\":50,\"star4Count\":162,\"star5Count\":1595,\"avgRank\":4.6,\"star1AvgRank\":\"5%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"3%\",\"star4AvgRank\":\"8%\",\"star5AvgRank\":\"83%\"},\"life\":{\"type\":\"1\",\"totalCount\":1890,\"star1Count\":90,\"star2Count\":13,\"star3Count\":46,\"star4Count\":130,\"star5Count\":1611,\"avgRank\":4.7,\"star1AvgRank\":\"5%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"2%\",\"star4AvgRank\":\"7%\",\"star5AvgRank\":\"85%\"},\"environ\":{\"type\":\"0\",\"totalCount\":2152,\"star1Count\":124,\"star2Count\":14,\"star3Count\":32,\"star4Count\":89,\"star5Count\":1893,\"avgRank\":4.7,\"star1AvgRank\":\"6%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"1%\",\"star4AvgRank\":\"4%\",\"star5AvgRank\":\"88%\"}},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/zbzrft?yxmc=%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 365,
+    "status": 200,
+    "label": "北大-北京-2024",
+    "body": "{\"msg\":{\"news\":[{\"title\":\"清华大学：统招专业类中专业方向有调整，新增计算机与金融双学士学位招生\",\"htmlTitle\":\"清华大学：统招专业类中专业方向有调整，新增计算机与金融双学士学位招生\",\"displayDate\":\"2020-07-28\",\"summary\":\"2020年，清华大学共有16个招生大类面向高考统招招生，包括建筑类、土木类、环境化工与新材料类、电子信息类、自动化类等。由于强基计划的推出，各招生专业类所包含的专业方向及规模略有调整。今年学校还新增设了计算机与金融双学士学位项目。\",\"url\":\"/gkxx/zbzrft/zx/202007/20200728/1950328771.html\",\"imageUrl\":null,\"top\":false}]},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/gdwz/detail/10003",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 644,
+    "status": 200,
+    "label": "北大-北京-2023",
+    "body": "{\"msg\":{\"orgCode\":\"10003\",\"orgName\":\"清华大学\",\"ssmc\":null,\"xxwz\":\"https://www.tsinghua.edu.cn/\",\"zswz\":\"https://www.join-tsinghua.edu.cn/\",\"dh\":\"010-62770334、62782051\",\"wxmc\":\"清华招生\",\"wxh\":\"tsingerhua\",\"wxEwmLobId\":\"n2qjhwzp727rmg27\",\"wxEwmFileName\":\"微信图片_20250707112956_11_468.jpg\",\"wbmc\":null,\"wbwz\":null,\"wbEwmLobId\":null,\"wbEwmFileName\":null,\"bjhmc\":null,\"bjhIdh\":null,\"xhFileName\":null,\"xhlobId\":null,\"zbgwmc\":null,\"zbgwdz\":null,\"zyckxtmc\":null,\"zyckxtwz\":null,\"zyckxtsm\":null,\"sphList\":[{\"ptmc\":\"微信视频号\",\"mc\":\"清华大学\",\"ptId\":\"sphquj0W0mNhokG\"}],\"hasInfo\":true,\"hasZb\":false,\"year\":null,\"forumid\":null,\"checkYxxx\":null,\"xcspList\":[]},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/zyk/pub/appraisalinfo/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 2577,
+    "status": 200,
+    "label": "北大-北京-2023",
+    "body": "{\"msg\":{\"schappraisalinfo\":[{\"type\":\"综合\",\"avgRank\":4.6,\"count\":1925},{\"type\":\"院校\",\"avgRank\":4.7,\"count\":2151},{\"type\":\"生活\",\"avgRank\":4.7,\"count\":1890}],\"zytjcountinfo\":[{\"zymc\":\"经济与金融\",\"avgRank\":4.6,\"count\":275,\"hasInfo\":true,\"specId\":\"73381143\"},{\"zymc\":\"计算机科学与技术\",\"avgRank\":4.8,\"count\":237,\"hasInfo\":true,\"specId\":\"73384336\"},{\"zymc\":\"数理基础科学\",\"avgRank\":4.3,\"count\":127,\"hasInfo\":true,\"specId\":\"73383783\"},{\"zymc\":\"自动化\",\"avgRank\":4.5,\"count\":123,\"hasInfo\":true,\"specId\":\"73384324\"},{\"zymc\":\"电气工程及其自动化\",\"avgRank\":4.4,\"count\":120,\"hasInfo\":true,\"specId\":\"73384320\"},{\"zymc\":\"电子信息科学与技术\",\"avgRank\":4.7,\"count\":79,\"hasInfo\":false,\"specId\":\"73384004\"},{\"zymc\":\"法学\",\"avgRank\":4.7,\"count\":75,\"hasInfo\":true,\"specId\":\"73381155\"},{\"zymc\":\"建筑学\",\"avgRank\":4.3,\"count\":68,\"hasInfo\":true,\"specId\":\"73384460\"},{\"zymc\":\"电子信息类\",\"avgRank\":4.4,\"count\":59,\"hasInfo\":true,\"specId\":\"437279026\"},{\"zymc\":\"经济学\",\"avgRank\":4.2,\"count\":56,\"hasInfo\":false,\"specId\":\"73381079\"}],\"schDicId\":\"73394526\",\"zytjzsinfo\":[{\"zymc\":\"信息与计"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/schinfo/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 341,
+    "status": 200,
+    "label": "北大-北京-2023",
+    "body": "{\"msg\":{\"qjjh\":false,\"followCount\":24398,\"dh\":\"010-62770334、62782051\",\"hasZb\":false,\"zswz\":\"https://www.join-tsinghua.edu.cn/\",\"zgbmmc\":\"教育部\",\"syl\":true,\"schInfoId\":\"99617189\",\"txdz\":\"北京市海淀区清华大学\",\"yxmc\":\"清华大学\",\"yjsy\":true,\"schid\":\"3\",\"yxdm\":\"10003\",\"xxwz\":\"https://www.tsinghua.edu.cn/\",\"hasZsjh\":true,\"gxzx\":false,\"yxszd\":\"北京\"},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/questions/3",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 1295,
+    "status": 200,
+    "label": "北大-北京-2023",
+    "body": "{\"msg\":{\"year\":2026,\"questions\":[{\"title\":\"志愿填报\",\"userName\":\"18***48\",\"ssmc\":\"广西\",\"createdTime\":\"2025-06-28 16:43\",\"content\":\"老师您好，分数可能不够，如果提前批只报了贵校会被滑档还是退档？\",\"questionId\":\"6798265058\",\"replyContent\":\"<p>如果分数低于提前批计划数范围内报考考生的高考成绩，则会被退档处理。</p>\"},{\"title\":\"关于自强计划的问题\",\"userName\":\"ch***hpqntays9u2el1k7\",\"ssmc\":\"广西\",\"createdTime\":\"2025-06-28 15:46\",\"content\":\"我已在今年4月20日之前完成贵校高校专项计划志愿报名，且显示审核通过，现高考成绩已出，我需要再到考试院填报特殊批次?或者只需等待录取结果?\",\"questionId\":\"6798152643\",\"replyContent\":\"<p>需要在高考志愿填报系统中进行志愿填报，根据报考考生的高考成绩按计划录取。</p>\"},{\"title\":\"700分能上吗\",\"userName\":\"ch***0klfs877krim9q1n\",\"ssmc\":\"广东\",\"createdTime\":\"2025-06-28 15:38\",\"content\":\"700分能上吗？\",\"questionId\":\"6798142278\",\"replyContent\":\"<p>我校根据招生计划数按照高考成绩进行录取，欢迎报考我校。</p>\"},{\"title\":\"清华大学核动力定向招生\",\"userName\":\"ch***snvmsjeqpjcvnqbk\",\"ssmc\":\"贵州\",\"createdTime\":\"2025-06-28 12:16\",\"content\":\"清华大学核动力定向招生可以继续深造吗？可以继续考研读博吗？\",\"questionId\":\"6797817232\",\"replyContent\":\"<p>我校公布的招生简章中有相关培养单位的联系方式，可以电话咨询010-62783493。</p>\"},{\"title\":\"报考\",\"userName\":\"ch***ugql03p8gzgfbrr6"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/zbzrft?yxmc=%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 365,
+    "status": 200,
+    "label": "北大-北京-2023",
+    "body": "{\"msg\":{\"news\":[{\"title\":\"清华大学：统招专业类中专业方向有调整，新增计算机与金融双学士学位招生\",\"htmlTitle\":\"清华大学：统招专业类中专业方向有调整，新增计算机与金融双学士学位招生\",\"displayDate\":\"2020-07-28\",\"summary\":\"2020年，清华大学共有16个招生大类面向高考统招招生，包括建筑类、土木类、环境化工与新材料类、电子信息类、自动化类等。由于强基计划的推出，各招生专业类所包含的专业方向及规模略有调整。今年学校还新增设了计算机与金融双学士学位项目。\",\"url\":\"/gkxx/zbzrft/zx/202007/20200728/1950328771.html\",\"imageUrl\":null,\"top\":false}]},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/yxmydinfo/99617189",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 735,
+    "status": 200,
+    "label": "北大-北京-2023",
+    "body": "{\"msg\":{\"overall\":{\"type\":\"2\",\"totalCount\":1925,\"star1Count\":98,\"star2Count\":20,\"star3Count\":50,\"star4Count\":162,\"star5Count\":1595,\"avgRank\":4.6,\"star1AvgRank\":\"5%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"3%\",\"star4AvgRank\":\"8%\",\"star5AvgRank\":\"83%\"},\"life\":{\"type\":\"1\",\"totalCount\":1890,\"star1Count\":90,\"star2Count\":13,\"star3Count\":46,\"star4Count\":130,\"star5Count\":1611,\"avgRank\":4.7,\"star1AvgRank\":\"5%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"2%\",\"star4AvgRank\":\"7%\",\"star5AvgRank\":\"85%\"},\"environ\":{\"type\":\"0\",\"totalCount\":2152,\"star1Count\":124,\"star2Count\":14,\"star3Count\":32,\"star4Count\":89,\"star5Count\":1893,\"avgRank\":4.7,\"star1AvgRank\":\"6%\",\"star2AvgRank\":\"1%\",\"star3AvgRank\":\"1%\",\"star4AvgRank\":\"4%\",\"star5AvgRank\":\"88%\"}},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/gdwz/detail/10166",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 577,
+    "status": 200,
+    "label": "清华-北京-2025",
+    "body": "{\"msg\":{\"orgCode\":\"10166\",\"orgName\":\"沈阳师范大学\",\"ssmc\":null,\"xxwz\":\"https://www.synu.edu.cn/\",\"zswz\":\"https://zs.synu.edu.cn/\",\"dh\":\"024-86574436、024-86592982\",\"wxmc\":\"沈阳师范大学招生就业\",\"wxh\":\"SYNU_ZSJY\",\"wxEwmLobId\":\"wcdnekmgcvoem2jb\",\"wxEwmFileName\":\"招生就业公众号样式2 - 副本.png\",\"wbmc\":null,\"wbwz\":null,\"wbEwmLobId\":null,\"wbEwmFileName\":null,\"bjhmc\":null,\"bjhIdh\":null,\"xhFileName\":null,\"xhlobId\":null,\"zbgwmc\":null,\"zbgwdz\":null,\"zyckxtmc\":null,\"zyckxtwz\":null,\"zyckxtsm\":null,\"sphList\":[],\"hasInfo\":true,\"hasZb\":false,\"year\":null,\"forumid\":null,\"checkYxxx\":null,\"xcspList\":[]},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/schinfo/140",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 358,
+    "status": 200,
+    "label": "清华-北京-2025",
+    "body": "{\"msg\":{\"qjjh\":false,\"followCount\":599,\"dh\":\"024-86574436、024-86592982\",\"hasZb\":false,\"zswz\":\"https://zs.synu.edu.cn/\",\"zgbmmc\":\"辽宁省教育厅\",\"syl\":false,\"schInfoId\":\"99617333\",\"txdz\":\"学校地址：沈阳市黄河北大街253号。 邮政编码：110034\",\"yxmc\":\"沈阳师范大学\",\"yjsy\":false,\"schid\":\"140\",\"yxdm\":\"10166\",\"xxwz\":\"https://www.synu.edu.cn/\",\"hasZsjh\":true,\"gxzx\":false,\"yxszd\":\"辽宁\"},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/zyk/pub/appraisalinfo/140",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 2553,
+    "status": 200,
+    "label": "清华-北京-2025",
+    "body": "{\"msg\":{\"schappraisalinfo\":[{\"type\":\"综合\",\"avgRank\":4.2,\"count\":3488},{\"type\":\"院校\",\"avgRank\":4.5,\"count\":4092},{\"type\":\"生活\",\"avgRank\":3.8,\"count\":3386}],\"zytjcountinfo\":[{\"zymc\":\"英语\",\"avgRank\":4.7,\"count\":320,\"hasInfo\":true,\"specId\":\"73383483\"},{\"zymc\":\"汉语言文学\",\"avgRank\":4.8,\"count\":285,\"hasInfo\":true,\"specId\":\"73383455\"},{\"zymc\":\"法学\",\"avgRank\":4.6,\"count\":281,\"hasInfo\":true,\"specId\":\"73381155\"},{\"zymc\":\"计算机科学与技术\",\"avgRank\":4.5,\"count\":207,\"hasInfo\":true,\"specId\":\"73384336\"},{\"zymc\":\"教育学\",\"avgRank\":4.8,\"count\":170,\"hasInfo\":true,\"specId\":\"73383287\"},{\"zymc\":\"汉语国际教育\",\"avgRank\":4.6,\"count\":168,\"hasInfo\":true,\"specId\":\"73383463\"},{\"zymc\":\"学前教育\",\"avgRank\":4.6,\"count\":126,\"hasInfo\":true,\"specId\":\"73383291\"},{\"zymc\":\"软件工程\",\"avgRank\":4.7,\"count\":110,\"hasInfo\":true,\"specId\":\"73384356\"},{\"zymc\":\"国际经济与贸易\",\"avgRank\":4.2,\"count\":103,\"hasInfo\":true,\"specId\":\"73381083\"},{\"zymc\":\"数学与应用数学\",\"avgRank\":4.9,\"count\":97,\"hasInfo\":true,\"specId\":\"73383775\"}],\"schDicId\":\"73395040\",\"zytjzsinfo\":[{\"zymc\":\"劳动与社会保障\""
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/yxmydinfo/99617333",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 750,
+    "status": 200,
+    "label": "清华-北京-2025",
+    "body": "{\"msg\":{\"overall\":{\"type\":\"2\",\"totalCount\":3488,\"star1Count\":244,\"star2Count\":125,\"star3Count\":373,\"star4Count\":694,\"star5Count\":2052,\"avgRank\":4.2,\"star1AvgRank\":\"7%\",\"star2AvgRank\":\"4%\",\"star3AvgRank\":\"11%\",\"star4AvgRank\":\"20%\",\"star5AvgRank\":\"59%\"},\"life\":{\"type\":\"1\",\"totalCount\":3386,\"star1Count\":422,\"star2Count\":249,\"star3Count\":499,\"star4Count\":614,\"star5Count\":1602,\"avgRank\":3.8,\"star1AvgRank\":\"12%\",\"star2AvgRank\":\"7%\",\"star3AvgRank\":\"15%\",\"star4AvgRank\":\"18%\",\"star5AvgRank\":\"47%\"},\"environ\":{\"type\":\"0\",\"totalCount\":4092,\"star1Count\":206,\"star2Count\":102,\"star3Count\":187,\"star4Count\":514,\"star5Count\":3083,\"avgRank\":4.5,\"star1AvgRank\":\"5%\",\"star2AvgRank\":\"2%\",\"star3AvgRank\":\"5%\",\"star4AvgRank\":\"13%\",\"star5AvgRank\":\"75%\"}},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/zbzrft?yxmc=%E6%B2%88%E9%98%B3%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 31,
+    "status": 200,
+    "label": "清华-北京-2025",
+    "body": "{\"msg\":{\"news\":[]},\"flag\":true}"
+  },
+  {
+    "url": "https://gaokao.chsi.com.cn/wap/sch/questions/140",
+    "contentType": "application/json;charset=UTF-8",
+    "size": 4388,
+    "status": 200,
+    "label": "清华-北京-2025",
+    "body": "{\"msg\":{\"year\":2026,\"questions\":[{\"title\":\"西藏考生\",\"userName\":\"ch***ff51yy4ql7p8rxek\",\"ssmc\":\"西藏\",\"createdTime\":\"2025-06-28 16:32\",\"content\":\"请问老师：西藏汉族文科考生多少分有希望报考贵校？谢谢老师\",\"questionId\":\"6798244839\",\"replyContent\":\"<p><span style=\\\"text-indent: 32px; text-wrap-mode: wrap;\\\">考生你好，</span><span style=\\\"text-indent: 32px; text-wrap-mode: wrap;\\\">录取详情可登录我校招生信息网，历年录取分数情况。</span><span style=\\\"text-indent: 2em; text-wrap-mode: wrap;\\\">详见网址<a href=\\\"https://zhaolu.zjzw.cn/release-page/OverYears?key=7b88d93e5ae82239afacda92&amp;&amp;list_style=\\\">https://zhaolu.zjzw.cn/release-page/OverYears?key=7b88d93e5ae82239afacda92&amp;&amp;list_style=</a></span></p>\"},{\"title\":\"录取\",\"userName\":\"ch***z2mefygl0a347yti\",\"ssmc\":\"内蒙古\",\"createdTime\":\"2025-06-28 14:06\",\"content\":\"内蒙古考生 女 理化生 高考成绩480 省排名35505 报考贵校的食品科学与工程被录取的几率大吗?\",\"questionId\":\"6797988621\",\"replyContent\":\"<p><span style=\\\"text-indent: 32px; text-wrap-mode: wrap;\\\">考生你好，</span><span style=\\\"text-indent: 32px; text-wrap-mode: wrap;\\\">录取详情可登录我校招生信息网，历年录"
+  }
+]
