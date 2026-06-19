@@ -1,0 +1,1046 @@
+[
+  {
+    "uniId": "ccsu",
+    "province": "北京",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 582,
+    "minRank": 13798,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "ccsu",
+    "province": "北京",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 576,
+    "minRank": 14960,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "ccsu",
+    "province": "北京",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 568,
+    "minRank": 16600,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "ccsu",
+    "province": "北京",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 543,
+    "minRank": 21910,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "ccsu",
+    "province": "上海",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 494,
+    "minRank": 21165,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "ccsu",
+    "province": "上海",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 479,
+    "minRank": 24801,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "安徽",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 647,
+    "minRank": 3022,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "安徽",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 645,
+    "minRank": 3265,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "安徽",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 643,
+    "minRank": 3612,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "安徽",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 628,
+    "minRank": 6861,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "安徽",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 625,
+    "minRank": 7466,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "安徽",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 618,
+    "minRank": 9496,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "安徽",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 594,
+    "minRank": 1606,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "北京",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 643,
+    "minRank": 3563,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "北京",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 643,
+    "minRank": 3563,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "北京",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 642,
+    "minRank": 3697,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "北京",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 630,
+    "minRank": 5308,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "重庆",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 640,
+    "minRank": 1694,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "重庆",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 625,
+    "minRank": 3016,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "重庆",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 612,
+    "minRank": 4755,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "重庆",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 585,
+    "minRank": 9972,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "重庆",
+    "year": 2023,
+    "category": "历史类",
+    "minScore": 579,
+    "minRank": 1871,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "福建",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 653,
+    "minRank": 1802,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "福建",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 649,
+    "minRank": 2190,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "福建",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 620,
+    "minRank": 6757,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "福建",
+    "year": 2023,
+    "category": "历史类",
+    "minScore": 599,
+    "minRank": 1719,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "甘肃",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 596,
+    "minRank": 1298,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "甘肃",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 566,
+    "minRank": 723,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "广东",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 645,
+    "minRank": 5130,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "广东",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 643,
+    "minRank": 5707,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "广东",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 627,
+    "minRank": 11584,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "广东",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 621,
+    "minRank": 14462,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "广西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 628,
+    "minRank": 2334,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "广西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 625,
+    "minRank": 2583,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "广西",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 596,
+    "minRank": 1736,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "广西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 549,
+    "minRank": 16122,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "贵州",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 631,
+    "minRank": 1442,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "贵州",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 630,
+    "minRank": 1524,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "贵州",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 618,
+    "minRank": 1033,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "贵州",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 592,
+    "minRank": 5139,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "海南",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 744,
+    "minRank": 542,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "海南",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 653,
+    "minRank": 4568,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河北",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 641,
+    "minRank": 3271,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河北",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 636,
+    "minRank": 4187,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河北",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 610,
+    "minRank": 11481,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河北",
+    "year": 2023,
+    "category": "历史类",
+    "minScore": 604,
+    "minRank": 2331,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河北",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 588,
+    "minRank": 21691,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河南",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 646,
+    "minRank": 3921,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河南",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 642,
+    "minRank": 4712,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河南",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 623,
+    "minRank": 1676,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河南",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 621,
+    "minRank": 10964,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河南",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 611,
+    "minRank": 15415,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "河南",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 583,
+    "minRank": 34767,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "黑龙江",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 620,
+    "minRank": 1478,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "黑龙江",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 619,
+    "minRank": 1537,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "黑龙江",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 604,
+    "minRank": 2422,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "黑龙江",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 529,
+    "minRank": 893,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖北",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 648,
+    "minRank": 3901,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖北",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 645,
+    "minRank": 4475,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖北",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 639,
+    "minRank": 5814,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖北",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 637,
+    "minRank": 6305,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖北",
+    "year": 2023,
+    "category": "历史类",
+    "minScore": 596,
+    "minRank": 2441,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖南",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 645,
+    "minRank": 2917,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖南",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 645,
+    "minRank": 2917,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖南",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 632,
+    "minRank": 5295,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖南",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 624,
+    "minRank": 7162,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "湖南",
+    "year": 2023,
+    "category": "历史类",
+    "minScore": 599,
+    "minRank": 1827,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "吉林",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 626,
+    "minRank": 1028,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "吉林",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 535,
+    "minRank": 1210,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江苏",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 656,
+    "minRank": 3625,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江苏",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 654,
+    "minRank": 4113,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江苏",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 647,
+    "minRank": 6253,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江苏",
+    "year": 2023,
+    "category": "历史类",
+    "minScore": 614,
+    "minRank": 2329,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 637,
+    "minRank": 2445,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 635,
+    "minRank": 2597,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 631,
+    "minRank": 3126,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 611,
+    "minRank": 6590,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "江西",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 605,
+    "minRank": 1184,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "辽宁",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 658,
+    "minRank": 1843,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "辽宁",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 657,
+    "minRank": 1929,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "辽宁",
+    "year": 2023,
+    "category": "物理类",
+    "minScore": 649,
+    "minRank": 2739,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "辽宁",
+    "year": 2023,
+    "category": "历史类",
+    "minScore": 604,
+    "minRank": 1143,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "内蒙古",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 606,
+    "minRank": 1464,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "内蒙古",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 582,
+    "minRank": 2862,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "内蒙古",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 576,
+    "minRank": 3358,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "内蒙古",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 538,
+    "minRank": 7668,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "内蒙古",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 519,
+    "minRank": 2539,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "宁夏",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 576,
+    "minRank": 409,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "青海",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 552,
+    "minRank": 370,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "山东",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 650,
+    "minRank": 4022,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "山东",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 620,
+    "minRank": 13525,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "山东",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 592,
+    "minRank": 29552,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "山西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 623,
+    "minRank": 2102,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "山西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 620,
+    "minRank": 2371,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "山西",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 548,
+    "minRank": 1580,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "陕西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 628,
+    "minRank": 2765,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "陕西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 624,
+    "minRank": 3060,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "陕西",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 597,
+    "minRank": 5953,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "陕西",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 571,
+    "minRank": 1949,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "上海",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 573,
+    "minRank": 3404,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "四川",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 655,
+    "minRank": 3522,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "四川",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 648,
+    "minRank": 4894,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "四川",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 642,
+    "minRank": 6345,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "四川",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 626,
+    "minRank": 11181,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "四川",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 616,
+    "minRank": 14955,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "四川",
+    "year": 2023,
+    "category": "文科",
+    "minScore": 583,
+    "minRank": 2901,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "天津",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 669,
+    "minRank": 1518,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "天津",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 661,
+    "minRank": 2236,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "天津",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 651,
+    "minRank": 3386,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "新疆",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 593,
+    "minRank": 739,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "云南",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 634,
+    "minRank": 1707,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "云南",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 627,
+    "minRank": 2290,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "云南",
+    "year": 2023,
+    "category": "理科",
+    "minScore": 599,
+    "minRank": 5903,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "浙江",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 662,
+    "minRank": 7246,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "浙江",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 659,
+    "minRank": 8605,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "uestc_us",
+    "province": "浙江",
+    "year": 2023,
+    "category": "综合",
+    "minScore": 652,
+    "minRank": 11738,
+    "source": "eol-api"
+  }
+]

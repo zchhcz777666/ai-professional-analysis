@@ -1,0 +1,29 @@
+[
+  {
+    "uniId": "cumt",
+    "province": "青海",
+    "year": 2025,
+    "category": "物理类",
+    "minScore": 487,
+    "minRank": 4147,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "cumt",
+    "province": "青海",
+    "year": 2025,
+    "category": "物理类",
+    "minScore": 464,
+    "minRank": 5943,
+    "source": "eol-api"
+  },
+  {
+    "uniId": "cumt",
+    "province": "青海",
+    "year": 2025,
+    "category": "物理类",
+    "minScore": 434,
+    "minRank": 8767,
+    "source": "eol-api"
+  }
+]
