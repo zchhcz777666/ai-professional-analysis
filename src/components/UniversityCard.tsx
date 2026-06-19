@@ -4,11 +4,9 @@ import { MatchResult } from '@/types'
 
 interface UniversityCardProps {
   result: MatchResult
-  onAnalyze: (result: MatchResult) => void
-  callsRemaining: number
 }
 
-export default function UniversityCard({ result, onAnalyze, callsRemaining }: UniversityCardProps) {
+export default function UniversityCard({ result }: UniversityCardProps) {
   const { university, tier, matchScore, scoreRecords, riskLevel, analysis } = result
 
   const tierStyle = tier === '冲' ? 'tier-chong' : tier === '稳' ? 'tier-wen' : 'tier-bao'
@@ -86,28 +84,13 @@ export default function UniversityCard({ result, onAnalyze, callsRemaining }: Un
       <p className="text-sm text-slate-600 mb-3 leading-relaxed">{analysis}</p>
 
       {/* 特色方向 */}
-      <div className="flex flex-wrap gap-1 mb-3">
+      <div className="flex flex-wrap gap-1">
         {university.researchFocus.slice(0, 3).map(f => (
           <span key={f} className="px-2 py-0.5 bg-blue-50 text-blue-600 text-xs rounded-full">{f}</span>
         ))}
         {university.features.slice(0, 2).map(f => (
           <span key={f} className="px-2 py-0.5 bg-green-50 text-green-600 text-xs rounded-full">{f}</span>
         ))}
-      </div>
-
-      {/* 底部操作 */}
-      <div className="flex items-center justify-end pt-2 border-t border-slate-100">
-        <button
-          onClick={() => onAnalyze(result)}
-          disabled={callsRemaining <= 0}
-          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-            callsRemaining > 0
-              ? 'bg-blue-600 text-white hover:bg-blue-700'
-              : 'bg-slate-200 text-slate-400 cursor-not-allowed'
-          }`}
-        >
-          {callsRemaining > 0 ? 'AI深度分析' : '额度已用完'}
-        </button>
       </div>
     </div>
   )

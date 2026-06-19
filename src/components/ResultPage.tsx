@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import { MatchResult, UserInput } from '@/types'
 import UniversityCard from './UniversityCard'
-import AIAnalysis from './AIAnalysis'
 
 interface ResultPageProps {
   results: MatchResult[]
@@ -15,11 +14,8 @@ interface ResultPageProps {
 }
 
 export default function ResultPage({
-  results, userInput, onBack, accessCode, callsRemaining, onCallUsed
+  results, userInput, onBack
 }: ResultPageProps) {
-  const [selectedUniversity, setSelectedUniversity] = useState<MatchResult | null>(null)
-  const [showAnalysis, setShowAnalysis] = useState(false)
-
   const [tierFilter, setTierFilter] = useState<'全部' | '冲' | '稳' | '保'>('全部')
 
   useEffect(() => {
@@ -33,11 +29,6 @@ export default function ResultPage({
   const filteredResults = tierFilter === '全部'
     ? results
     : results.filter(r => r.tier === tierFilter)
-
-  const handleAnalyze = (result: MatchResult) => {
-    setSelectedUniversity(result)
-    setShowAnalysis(true)
-  }
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -59,10 +50,6 @@ export default function ResultPage({
               {userInput.province} · {userInput.category} · {userInput.score}分
               {userInput.rank ? ` · 位次${userInput.rank.toLocaleString()}` : ''}
             </p>
-          </div>
-          <div className="text-right">
-            <div className="text-xs text-slate-400">AI分析额度</div>
-            <div className="text-sm font-semibold text-blue-600">{callsRemaining} 次</div>
           </div>
         </div>
       </header>
@@ -114,26 +101,12 @@ export default function ResultPage({
                 <UniversityCard
                   key={result.university.id}
                   result={result}
-                  onAnalyze={handleAnalyze}
-                  callsRemaining={callsRemaining}
                 />
               ))}
             </div>
           </section>
         )}
       </div>
-
-      {/* AI分析弹窗 */}
-      {showAnalysis && selectedUniversity && (
-        <AIAnalysis
-          result={selectedUniversity}
-          userInput={userInput}
-          accessCode={accessCode}
-          callsRemaining={callsRemaining}
-          onCallUsed={onCallUsed}
-          onClose={() => { setShowAnalysis(false); setSelectedUniversity(null) }}
-        />
-      )}
     </main>
   )
 }

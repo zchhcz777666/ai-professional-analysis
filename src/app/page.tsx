@@ -29,11 +29,11 @@ export default function Home() {
   const [provinces, setProvinces] = useState<string[]>([])
   const [matching, setMatching] = useState(false)
 
-  // 从 API 获取省份列表（避免打包 6.9MB 数据到客户端）
+  // 从静态 JSON 文件获取省份列表
   useEffect(() => {
-    fetch('/api/scores?type=provinces')
+    fetch('/data/scores/_index.json')
       .then(res => res.json())
-      .then(data => setProvinces(data))
+      .then(data => setProvinces(data.map((i: { province: string }) => i.province)))
       .catch(() => setProvinces([]))
   }, [])
 

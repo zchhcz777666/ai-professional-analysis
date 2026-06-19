@@ -19,10 +19,10 @@ import { universities } from '@/data/universities'
 export async function matchUniversities(input: UserInput): Promise<MatchResult[]> {
   const { province, category, score, rank, preferences } = input
 
-  // 从 API 获取该省份的分数线数据（不打包 6.9MB 到客户端）
+  // 从静态 JSON 文件加载该省份分数线数据
   let provinceScores: ScoreRecord[] = []
   try {
-    const res = await fetch(`/api/scores?type=province-scores&province=${encodeURIComponent(province)}`)
+    const res = await fetch(`/data/scores/${encodeURIComponent(province)}.json`)
     if (res.ok) {
       provinceScores = await res.json()
     }

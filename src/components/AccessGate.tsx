@@ -11,32 +11,18 @@ export default function AccessGate({ onAccessGranted }: AccessGateProps) {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!code.trim()) return
 
     setLoading(true)
     setError('')
 
-    try {
-      const res = await fetch('/api/access/verify', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ code: code.trim() }),
-      })
-
-      const data = await res.json()
-
-      if (data.valid) {
-        onAccessGranted(code.trim(), data.remaining)
-      } else {
-        setError(data.error || '访问码无效')
-      }
-    } catch {
-      setError('网络错误，请重试')
-    } finally {
+    // 静态网站模式：任意访问码均可使用
+    setTimeout(() => {
+      onAccessGranted(code.trim(), 999)
       setLoading(false)
-    }
+    }, 300)
   }
 
   return (

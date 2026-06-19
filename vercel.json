@@ -1,15 +1,8 @@
 {
   "name": "ai-zhuanyefengxi",
   "framework": "nextjs",
-  "buildCommand": "next build",
-  "outputDirectory": ".next",
   "installCommand": "npm install",
-  "regions": ["sin1"],
-  "functions": {
-    "src/app/api/**/*.ts": {
-      "memory": 256,
-      "maxDuration": 30
-    }
-  },
-  "crons": []
+  "outputDirectory": "out",
+  "buildCommand": "next build",
+  "regions": ["sin1"]
 }
