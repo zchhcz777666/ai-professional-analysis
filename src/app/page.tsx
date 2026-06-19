@@ -48,11 +48,13 @@ export default function Home() {
     if (!province || !score) return
 
     setMatching(true)
+    const scoreValue = parseInt(score)
+    const rankValue = rank ? parseInt(rank) : undefined
     const input: UserInput = {
       province,
       category: category as UserInput['category'],
-      score: parseInt(score),
-      rank: rank ? parseInt(rank) : undefined,
+      score: isNaN(scoreValue) ? 0 : scoreValue,
+      rank: rankValue,
       preferences: {
         researchFocus: selectedFocus.length > 0 ? selectedFocus : undefined,
         priorityOrder: priorityOrder as UserInput['preferences']['priorityOrder'],

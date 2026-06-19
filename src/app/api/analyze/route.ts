@@ -237,11 +237,11 @@ function generateFallbackContent(
   if (avgMinRank > 0) {
     const diff = studentRank - avgMinRank
     if (diff < 0) {
-      tierAnalysis = `你的位次(${studentRank.toLocaleString()})高于该校近年平均最低位次(${avgMinRank.toLocaleString()})，差距约${Math.abs(diff).toLocaleString()}名，属于冲刺范围，录取有一定不确定性。`
+      tierAnalysis = `你的位次(${studentRank.toLocaleString()})低于该校近三年平均最低位次(${avgMinRank.toLocaleString()})，差距约${Math.abs(diff).toLocaleString()}名，属于冲刺范围，录取有一定不确定性。`
     } else if (diff < avgMinRank * 0.3) {
-      tierAnalysis = `你的位次(${studentRank.toLocaleString()})略高于该校近年平均最低位次(${avgMinRank.toLocaleString()})，超约${diff.toLocaleString()}名，录取把握较大。`
+      tierAnalysis = `你的位次(${studentRank.toLocaleString()})高于该校近三年平均最低位次(${avgMinRank.toLocaleString()})，领先约${Math.abs(diff).toLocaleString()}名，录取把握较大。`
     } else {
-      tierAnalysis = `你的位次(${studentRank.toLocaleString()})明显高于该校近年平均最低位次(${avgMinRank.toLocaleString()})，超约${diff.toLocaleString()}名，录取非常稳妥。`
+      tierAnalysis = `你的位次(${studentRank.toLocaleString()})高于该校近三年平均最低位次(${avgMinRank.toLocaleString()})，领先约${Math.abs(diff).toLocaleString()}名，录取非常稳妥。`
     }
   }
 
