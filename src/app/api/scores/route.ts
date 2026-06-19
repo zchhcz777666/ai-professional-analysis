@@ -1,16 +1,31 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { readFileSync, existsSync } from 'fs'
+import { join } from 'path'
 import { ScoreRecord } from '@/types'
-import scoresData from '@/data/scores.json'
 
-const scoreRecords = scoresData as ScoreRecord[]
+// 按需加载省份数据，避免 10MB 打包
+// 文件存放在 public/data/scores/ 确保 Vercel 部署
+const SCORES_DIR = join(process.cwd(), 'public/data/scores')
+
+function loadProvinceScores(province: string): ScoreRecord[] {
+  const filePath = join(SCORES_DIR, `${province}.json`)
+  if (!existsSync(filePath)) return []
+  return JSON.parse(readFileSync(filePath, 'utf8'))
+}
+
+function loadProvinceIndex(): { province: string }[] {
+  const indexPath = join(SCORES_DIR, '_index.json')
+  if (!existsSync(indexPath)) return []
+  return JSON.parse(readFileSync(indexPath, 'utf8'))
+}
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url)
   const type = searchParams.get('type')
 
   if (type === 'provinces') {
-    const provinces = [...new Set(scoreRecords.map(s => s.province))].sort()
-    return NextResponse.json(provinces)
+    const index = loadProvinceIndex()
+    return NextResponse.json(index.map(i => i.province))
   }
 
   if (type === 'province-scores') {
@@ -18,7 +33,7 @@ export async function GET(request: NextRequest) {
     if (!province) {
       return NextResponse.json({ error: 'province required' }, { status: 400 })
     }
-    const records = scoreRecords.filter(s => s.province === province)
+    const records = loadProvinceScores(province)
     return NextResponse.json(records)
   }
 
@@ -28,8 +43,8 @@ export async function GET(request: NextRequest) {
     if (!universityId || !province) {
       return NextResponse.json({ error: 'universityId and province required' }, { status: 400 })
     }
-    const records = scoreRecords.filter(
-      s => s.universityId === universityId && s.province === province
+    const records = loadProvinceScores(province).filter(
+      s => s.universityId === universityId
     ).sort((a, b) => b.year - a.year)
     return NextResponse.json(records)
   }
